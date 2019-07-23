@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>dokter duplicate finder</name>
+   <tag></tag>
+   <comment>WebUI.getText(findTestObject(&quot;Object Repository/dokter page/Page_SehatQ - Cari dokter/b_584&quot;), FailureHandling.CONTINUE_ON_FAILURE)</comment>
+   <testCaseGuid>474f720d-0cb6-41bf-ac25-eb71910a728e</testCaseGuid>
+</TestCaseEntity>

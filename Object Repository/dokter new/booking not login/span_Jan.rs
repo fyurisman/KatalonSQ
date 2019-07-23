@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Jan</name>
+   <tag></tag>
+   <elementGuidId>881f52cc-1028-42b2-adad-fb18f47cc1fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pageHCP']/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/ul/li/div/div[2]/table/tbody/tr/td/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-action</name>
+      <type>Main</type>
+      <value>selectMonth</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>month</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jan</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pageHCP&quot;)/div[@class=&quot;hcf-detail pt-0 mt-0&quot;]/div[@class=&quot;content-detail doctor-detail&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;doctor-section&quot;]/div[@class=&quot;box-detail left-border&quot;]/div[@class=&quot;list-data doctor-data js-getDoctor&quot;]/div[@class=&quot;js-doctorItem&quot;]/div[@class=&quot;col-right col-right-1 mt-2&quot;]/div[@class=&quot;doctor&quot;]/div[@class=&quot;top-wrapper&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 text-md-right text-left&quot;]/div[@class=&quot;date-wrapper&quot;]/div[@class=&quot;bootstrap-datetimepicker-widget dropdown-menu usetwentyfour bottom&quot;]/ul[@class=&quot;list-unstyled&quot;]/li[1]/div[@class=&quot;datepicker&quot;]/div[@class=&quot;datepicker-months&quot;]/table[@class=&quot;table-condensed&quot;]/tbody[1]/tr[1]/td[1]/span[@class=&quot;month&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='pageHCP']/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/ul/li/div/div[2]/table/tbody/tr/td/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mg'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sb'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Feb'])[2]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mar'])[2]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//td/span</value>
+   </webElementXpaths>
+</WebElementEntity>

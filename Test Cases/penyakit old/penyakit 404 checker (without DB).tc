@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>penyakit 404 checker (without DB)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>81a6e702-27a5-43cc-89d6-1790977414d6</testCaseGuid>
+</TestCaseEntity>

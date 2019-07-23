@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>dokter duplicate finder (superior)</name>
+   <tag></tag>
+   <comment>WebUI.getUrl()</comment>
+   <testCaseGuid>9b0fe8a6-0454-4390-ada7-0b9910c19e9f</testCaseGuid>
+</TestCaseEntity>

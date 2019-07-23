@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>dokter empty photo finder</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>333f014e-c1c1-4826-a8c3-30dd591508b8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>513214e8-c1f5-40d4-ac97-83acb022fbab</id>
+      <masked>false</masked>
+      <name>dokterimg</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>penyakit canonical pagination checker</name>
+   <tag></tag>
+   <comment>error canonical &quot; + WebUI.getUrl()</comment>
+   <testCaseGuid>5ca594bf-a03f-4c1e-ae03-400e51de42bf</testCaseGuid>
+</TestCaseEntity>

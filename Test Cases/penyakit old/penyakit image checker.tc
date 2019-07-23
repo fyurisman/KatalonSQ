@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>penyakit image checker</name>
+   <tag></tag>
+   <comment>WebUI.getUrl()</comment>
+   <testCaseGuid>d4da235a-7b59-44b4-8ec9-cca1e016a7e9</testCaseGuid>
+</TestCaseEntity>

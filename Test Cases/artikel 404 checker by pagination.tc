@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>artikel 404 checker by pagination</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb565632-140f-4cb7-a57c-cdae3f1a9bc3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ba5fdb6-0d64-43db-96f6-97bfdf5d3034</id>
+      <masked>false</masked>
+      <name>sitemap</name>
+   </variable>
+</TestCaseEntity>
