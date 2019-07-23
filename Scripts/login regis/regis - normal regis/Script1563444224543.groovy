@@ -47,7 +47,7 @@ WebUI.setText(findTestObject('Object Repository/login regis/regis/input_Tahun La
 
 WebUI.click(findTestObject('Object Repository/login regis/regis/i_Prev_fas fa-chevron-circle-r'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/login regis/regis/label_Rajin Olahraga'))
 
@@ -59,7 +59,7 @@ WebUI.click(findTestObject('Object Repository/login regis/regis/label_Rutin Bang
 
 WebUI.click(findTestObject('Object Repository/login regis/regis/i_Prev_fas fa-chevron-circle-r'))
 
-WebUI.waitForElementVisible(findTestObject('login regis/regis/label_MPASI'), 5)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/login regis/regis/label_MPASI'))
 
