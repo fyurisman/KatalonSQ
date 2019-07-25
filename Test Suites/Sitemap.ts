@@ -11,6 +11,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>74f09d2e-2f06-4f6a-b384-c8d7e2543503</testSuiteGuid>
    <testCaseLink>
+      <guid>047ad58c-49d5-4758-81c0-672f3aa3cf24</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/open close browser/open browser</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>db81295f-075e-4237-bad6-d244a1c2b41f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -57,5 +63,11 @@
          <value>after login</value>
          <variableId>9bb90353-25ac-4c52-9c88-f3b54d12e3c3</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0b568a12-d741-483d-b0f8-3350963f689c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/open close browser/close browser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
