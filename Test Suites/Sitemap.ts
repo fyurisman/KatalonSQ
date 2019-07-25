@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>db81295f-075e-4237-bad6-d244a1c2b41f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/404 checker by sitemap/404 checker by sitemap - before login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -46,8 +46,8 @@
          <combinationType>ONE</combinationType>
          <id>d6a76255-00a0-48ed-8a53-39b1121b62c7</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-10</value>
          </iterationEntity>
          <testDataId>Data Files/sitemap urls</testDataId>
       </testDataLink>
