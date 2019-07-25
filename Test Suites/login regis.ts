@@ -35,9 +35,15 @@
       <testCaseId>Test Cases/login regis/login - google</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8daa2670-5d8b-4426-aa07-b11f0a3f30a7</guid>
+      <guid>8fe0be46-5c79-45d0-91d4-ac646f501b5c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login regis/log out</testCaseId>
+      <testCaseId>Test Cases/login regis/log out - keluar button</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b7e528d8-b2de-4489-a4b5-069dec2cc90c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/login regis/log out - direct url</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

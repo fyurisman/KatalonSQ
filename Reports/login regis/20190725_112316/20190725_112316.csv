@@ -1,0 +1,102 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+login regis,Chrome 75.0.3770.142,,2019-07-25 11:23:19,2019-07-25 11:25:06,1m - 46.694s,FAILED
+,,,,,,
+Test Cases/login regis/regis - normal regis,Chrome 75.0.3770.142,,2019-07-25 11:23:20,2019-07-25 11:23:43,22.987s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,2019-07-25 11:23:20,2019-07-25 11:23:24,3.828s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-25 11:23:24,2019-07-25 11:23:25,1.159s,PASSED
+"navigateToUrl(target + ""sehatq.com/"")",Chrome 75.0.3770.142,,2019-07-25 11:23:25,2019-07-25 11:23:26,1.372s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:23:26,2019-07-25 11:23:29,2.482s,PASSED
+rng = Math.random() * 100000000,Chrome 75.0.3770.142,,2019-07-25 11:23:29,2019-07-25 11:23:29,0.033s,PASSED
+"randomemail = ""test@"" + rng + "".com""",Chrome 75.0.3770.142,,2019-07-25 11:23:29,2019-07-25 11:23:29,0.002s,PASSED
+"click(findTestObject(""Object Repository/login regis/regis/button_Login  Daftar Baru""))",Chrome 75.0.3770.142,,2019-07-25 11:23:29,2019-07-25 11:23:29,0.175s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/login regis/regis/input_Alamat E-Mail_email""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:23:29,2019-07-25 11:23:30,0.685s,PASSED
+"click(findTestObject(""Object Repository/login regis/regis/button_Daftar""))",Chrome 75.0.3770.142,,2019-07-25 11:23:30,2019-07-25 11:23:30,0.096s,PASSED
+"waitForElementVisible(findTestObject(""login regis/regis/input_Nama_name""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:23:30,2019-07-25 11:23:31,1.117s,PASSED
+"setText(findTestObject(""Object Repository/login regis/regis/input_Nama_name""), ""Automated registration test"")",Chrome 75.0.3770.142,,2019-07-25 11:23:31,2019-07-25 11:23:32,1.386s,PASSED
+"setText(findTestObject(""Object Repository/login regis/regis/input_Email_email""), randomemail)",Chrome 75.0.3770.142,,2019-07-25 11:23:32,2019-07-25 11:23:33,0.355s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/login regis/regis/input_Kata Sandi_password""), ""VU1orW/zbPMAsSeA5V5+EA=="")",Chrome 75.0.3770.142,,2019-07-25 11:23:33,2019-07-25 11:23:33,0.385s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/login regis/regis/select_Tanggal""), ""1"", true)",Chrome 75.0.3770.142,,2019-07-25 11:23:33,2019-07-25 11:23:34,0.643s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/login regis/regis/select_Bulan""), ""1"", true)",Chrome 75.0.3770.142,,2019-07-25 11:23:34,2019-07-25 11:23:34,0.391s,PASSED
+"setText(findTestObject(""Object Repository/login regis/regis/input_Tahun Lahir_bod-tahun""), ""1990"")",Chrome 75.0.3770.142,,2019-07-25 11:23:34,2019-07-25 11:23:34,0.191s,PASSED
+"click(findTestObject(""Object Repository/login regis/regis/i_Prev_fas fa-chevron-circle-r""))",Chrome 75.0.3770.142,,2019-07-25 11:23:34,2019-07-25 11:23:35,0.222s,PASSED
+delay(1),Chrome 75.0.3770.142,,2019-07-25 11:23:35,2019-07-25 11:23:36,1.056s,PASSED
+"click(findTestObject(""Object Repository/login regis/regis/label_Rajin Olahraga""))",Chrome 75.0.3770.142,,2019-07-25 11:23:36,2019-07-25 11:23:36,0.320s,PASSED
+"click(findTestObject(""Object Repository/login regis/regis/label_Perlu Refreshing""))",Chrome 75.0.3770.142,,2019-07-25 11:23:36,2019-07-25 11:23:36,0.376s,PASSED
+"click(findTestObject(""Object Repository/login regis/regis/label_Jaga Makan""))",Chrome 75.0.3770.142,,2019-07-25 11:23:36,2019-07-25 11:23:37,0.166s,PASSED
+"click(findTestObject(""Object Repository/login regis/regis/label_Rutin Banget""))",Chrome 75.0.3770.142,,2019-07-25 11:23:37,2019-07-25 11:23:37,0.219s,PASSED
+"click(findTestObject(""Object Repository/login regis/regis/i_Prev_fas fa-chevron-circle-r""))",Chrome 75.0.3770.142,,2019-07-25 11:23:37,2019-07-25 11:23:37,0.135s,PASSED
+delay(1),Chrome 75.0.3770.142,,2019-07-25 11:23:37,2019-07-25 11:23:38,1.004s,PASSED
+"click(findTestObject(""Object Repository/login regis/regis/label_MPASI""))",Chrome 75.0.3770.142,,2019-07-25 11:23:38,2019-07-25 11:23:38,0.346s,PASSED
+"click(findTestObject(""Object Repository/login regis/regis/label_PerkembanganBayi""))",Chrome 75.0.3770.142,,2019-07-25 11:23:38,2019-07-25 11:23:38,0.181s,PASSED
+"click(findTestObject(""Object Repository/login regis/regis/label_LatihanOtak""))",Chrome 75.0.3770.142,,2019-07-25 11:23:38,2019-07-25 11:23:39,0.197s,PASSED
+"click(findTestObject(""Object Repository/login regis/regis/button_Register""))",Chrome 75.0.3770.142,,2019-07-25 11:23:39,2019-07-25 11:23:39,0.219s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:23:39,2019-07-25 11:23:39,0.009s,PASSED
+"verifyElementPresent(findTestObject(""login regis/login button""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:23:39,2019-07-25 11:23:42,3.077s,PASSED
+"a = getText(findTestObject(""login regis/login button""))",Chrome 75.0.3770.142,,2019-07-25 11:23:42,2019-07-25 11:23:42,0.090s,PASSED
+"verifyMatch(a, ""Hi, Automated"", false)",Chrome 75.0.3770.142,,2019-07-25 11:23:42,2019-07-25 11:23:42,0.009s,PASSED
+closeBrowser(),Chrome 75.0.3770.142,,2019-07-25 11:23:42,2019-07-25 11:23:43,0.736s,PASSED
+,,,,,,
+Test Cases/login regis/login - normal email,Chrome 75.0.3770.142,,2019-07-25 11:23:43,2019-07-25 11:23:57,14.172s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,2019-07-25 11:23:43,2019-07-25 11:23:45,2.300s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-25 11:23:45,2019-07-25 11:23:47,1.154s,PASSED
+"navigateToUrl(target + ""sehatq.com/"")",Chrome 75.0.3770.142,,2019-07-25 11:23:47,2019-07-25 11:23:48,1.371s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:23:48,2019-07-25 11:23:50,1.650s,PASSED
+"click(findTestObject(""rumah sakit/booking logged in/button_Login  Daftar Baru""))",Chrome 75.0.3770.142,,2019-07-25 11:23:50,2019-07-25 11:23:50,0.294s,PASSED
+"waitForElementVisible(findTestObject(""rumah sakit/booking logged in/input_Alamat E-Mail_email""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:23:50,2019-07-25 11:23:50,0.583s,PASSED
+"setText(findTestObject(""rumah sakit/booking logged in/input_Alamat E-Mail_email""), ""kuning@color.com"")",Chrome 75.0.3770.142,,2019-07-25 11:23:50,2019-07-25 11:23:51,0.409s,PASSED
+"setText(findTestObject(""rumah sakit/booking logged in/input_Kata Sandi_password""), ""123sehatQ!"")",Chrome 75.0.3770.142,,2019-07-25 11:23:51,2019-07-25 11:23:51,0.206s,PASSED
+"click(findTestObject(""rumah sakit/booking logged in/button_Masuk""))",Chrome 75.0.3770.142,,2019-07-25 11:23:51,2019-07-25 11:23:51,0.202s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:23:51,2019-07-25 11:23:51,0.012s,PASSED
+"verifyElementPresent(findTestObject(""login regis/login button""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:23:51,2019-07-25 11:23:56,4.969s,PASSED
+"a = getText(findTestObject(""login regis/login button""))",Chrome 75.0.3770.142,,2019-07-25 11:23:56,2019-07-25 11:23:56,0.083s,PASSED
+"verifyMatch(a, ""Hi, Kuning"", false)",Chrome 75.0.3770.142,,2019-07-25 11:23:56,2019-07-25 11:23:56,0.001s,PASSED
+closeBrowser(),Chrome 75.0.3770.142,,2019-07-25 11:23:56,2019-07-25 11:23:57,0.688s,PASSED
+,,,,,,
+Test Cases/login regis/login - facebook,Chrome 75.0.3770.142,,2019-07-25 11:23:57,2019-07-25 11:24:15,17.563s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,2019-07-25 11:23:57,2019-07-25 11:24:00,2.329s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-25 11:24:00,2019-07-25 11:24:01,1.148s,PASSED
+"navigateToUrl(target + ""sehatq.com/"")",Chrome 75.0.3770.142,,2019-07-25 11:24:01,2019-07-25 11:24:04,3.221s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:24:04,2019-07-25 11:24:04,0.448s,PASSED
+"click(findTestObject(""Object Repository/login regis/login facebook/button_Login  Daftar Baru""))",Chrome 75.0.3770.142,,2019-07-25 11:24:04,2019-07-25 11:24:05,0.146s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/login regis/login facebook/input_Alamat E-Mail_email""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:24:05,2019-07-25 11:24:05,0.722s,PASSED
+"click(findTestObject(""Object Repository/login regis/login facebook/a_Sign in with Facebook""))",Chrome 75.0.3770.142,,2019-07-25 11:24:05,2019-07-25 11:24:09,3.615s,PASSED
+"setText(findTestObject(""Object Repository/login regis/login facebook/input_Login ke Facebook_email""), ""felix.yurisman@gmail.com"")",Chrome 75.0.3770.142,,2019-07-25 11:24:09,2019-07-25 11:24:09,0.338s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/login regis/login facebook/input_Login ke Facebook_pass""), ""D2MScLbSYg5YNi1NQdElsA=="")",Chrome 75.0.3770.142,,2019-07-25 11:24:09,2019-07-25 11:24:09,0.219s,PASSED
+"click(findTestObject(""Object Repository/login regis/login facebook/button_Masuk""))",Chrome 75.0.3770.142,,2019-07-25 11:24:09,2019-07-25 11:24:13,3.150s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:24:13,2019-07-25 11:24:13,0.793s,PASSED
+"verifyElementPresent(findTestObject(""login regis/login button""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:24:13,2019-07-25 11:24:14,0.452s,PASSED
+"a = getText(findTestObject(""login regis/login button""))",Chrome 75.0.3770.142,,2019-07-25 11:24:14,2019-07-25 11:24:14,0.042s,PASSED
+"verifyMatch(a, ""Hi, Felix"", false)",Chrome 75.0.3770.142,,2019-07-25 11:24:14,2019-07-25 11:24:14,0.000s,PASSED
+closeBrowser(),Chrome 75.0.3770.142,,2019-07-25 11:24:14,2019-07-25 11:24:15,0.705s,PASSED
+,,,,,,
+Test Cases/login regis/login - google,Chrome 75.0.3770.142,,2019-07-25 11:24:15,2019-07-25 11:24:32,17.776s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,2019-07-25 11:24:15,2019-07-25 11:24:17,2.330s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-25 11:24:17,2019-07-25 11:24:18,1.137s,PASSED
+"navigateToUrl(target + ""sehatq.com/"")",Chrome 75.0.3770.142,,2019-07-25 11:24:18,2019-07-25 11:24:21,2.292s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:24:21,2019-07-25 11:24:22,1.231s,PASSED
+"click(findTestObject(""Object Repository/login regis/login google/button_Login  Daftar Baru""))",Chrome 75.0.3770.142,,2019-07-25 11:24:22,2019-07-25 11:24:22,0.342s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/login regis/login google/input_Alamat E-Mail_email""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:24:22,2019-07-25 11:24:23,0.587s,PASSED
+"click(findTestObject(""Object Repository/login regis/login google/a_Sign in with Google""))",Chrome 75.0.3770.142,,2019-07-25 11:24:23,2019-07-25 11:24:25,2.241s,PASSED
+"setText(findTestObject(""Object Repository/login regis/login google/input_sehatq.com_identifier""), ""felix.yurisman@sehatq.com"")",Chrome 75.0.3770.142,,2019-07-25 11:24:25,2019-07-25 11:24:25,0.370s,PASSED
+"click(findTestObject(""Object Repository/login regis/login google/span_Berikutnya""))",Chrome 75.0.3770.142,,2019-07-25 11:24:25,2019-07-25 11:24:26,0.400s,PASSED
+"waitForElementVisible(findTestObject(""login regis/login google/input_google pass""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:24:26,2019-07-25 11:24:27,1.125s,PASSED
+"setEncryptedText(findTestObject(""login regis/login google/input_google pass""), ""Mz5h43mX6kUTLTQ7rovVfw=="")",Chrome 75.0.3770.142,,2019-07-25 11:24:27,2019-07-25 11:24:27,0.268s,PASSED
+"click(findTestObject(""Object Repository/login regis/login google/span_Berikutnya""))",Chrome 75.0.3770.142,,2019-07-25 11:24:27,2019-07-25 11:24:27,0.206s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:24:27,2019-07-25 11:24:27,0.029s,PASSED
+"verifyElementPresent(findTestObject(""login regis/login button""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:24:27,2019-07-25 11:24:32,4.287s,PASSED
+"a = getText(findTestObject(""login regis/login button""))",Chrome 75.0.3770.142,,2019-07-25 11:24:32,2019-07-25 11:24:32,0.035s,PASSED
+"verifyMatch(a, ""Hi, Felix"", false)",Chrome 75.0.3770.142,,2019-07-25 11:24:32,2019-07-25 11:24:32,0.002s,PASSED
+closeBrowser(),Chrome 75.0.3770.142,,2019-07-25 11:24:32,2019-07-25 11:24:32,0.691s,PASSED
+,,,,,,
+Test Cases/login regis/log out - keluar button,Chrome 75.0.3770.142,,2019-07-25 11:24:32,2019-07-25 11:24:47,14.427s,FAILED
+"openBrowser("""")",Chrome 75.0.3770.142,,2019-07-25 11:24:33,2019-07-25 11:24:35,2.310s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-25 11:24:35,2019-07-25 11:24:36,1.135s,PASSED
+"a = getText(findTestObject(""rumah sakit/booking logged in/button_Login  Daftar Baru""))",Chrome 75.0.3770.142,,2019-07-25 11:24:36,2019-07-25 11:24:47,10.778s,FAILED
+,,,,,,
+Test Cases/login regis/log out - direct url,Chrome 75.0.3770.142,,2019-07-25 11:24:47,2019-07-25 11:25:06,19.199s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,2019-07-25 11:24:47,2019-07-25 11:24:50,3.002s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-25 11:24:50,2019-07-25 11:24:51,1.152s,PASSED
+"callTestCase(findTestCase(""404 checker by sitemap/404 checker by sitemap - login steps""), [:], STOP_ON_FAILURE)",Chrome 75.0.3770.142,,2019-07-25 11:24:51,2019-07-25 11:24:58,7.027s,PASSED
+delay(2),Chrome 75.0.3770.142,,2019-07-25 11:24:58,2019-07-25 11:25:00,2.002s,PASSED
+"navigateToUrl(target + ""sehatq.com/keluar"")",Chrome 75.0.3770.142,,2019-07-25 11:25:00,2019-07-25 11:25:05,5.058s,PASSED
+closeBrowser(),Chrome 75.0.3770.142,,2019-07-25 11:25:05,2019-07-25 11:25:06,0.707s,PASSED

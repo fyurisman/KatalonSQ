@@ -19,17 +19,7 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('404 checker by sitemap/404 checker by sitemap - login steps'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
-
-WebUI.navigateToUrl(GlobalVariable.target+'sehatq.com/keluar')
-
-a = WebUI.getText(findTestObject('rumah sakit/booking logged in/button_Login  Daftar Baru'))
-
-WebUI.verifyMatch(a, 'Login / Daftar Baru', false)
-
-WebUI.callTestCase(findTestCase('404 checker by sitemap/404 checker by sitemap - login steps'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('login regis/login button'))
 
@@ -38,3 +28,4 @@ WebUI.click(findTestObject('Object Repository/login regis/a_Keluar'))
 WebUI.verifyMatch(a, 'Login / Daftar Baru', false)
 
 WebUI.closeBrowser()
+

@@ -17,7 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.target+'sehatq.com/')
+WebUI.navigateToUrl(GlobalVariable.target + 'sehatq.com/')
 
 WebUI.waitForPageLoad(5)
 
@@ -42,3 +42,4 @@ a = WebUI.getText(findTestObject('login regis/login button'))
 WebUI.verifyMatch(a, 'Hi, Felix', false)
 
 WebUI.closeBrowser()
+

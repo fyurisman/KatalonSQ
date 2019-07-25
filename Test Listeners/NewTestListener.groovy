@@ -29,9 +29,9 @@ class NewTestListener {
 	 */
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
-		println testSuiteContext.getTestSuiteId()
-		WebUI.openBrowser('')
-		WebUI.maximizeWindow()
+//		println testSuiteContext.getTestSuiteId()
+//		WebUI.openBrowser('')
+//		WebUI.maximizeWindow()
 	}
 
 	/**
@@ -40,7 +40,7 @@ class NewTestListener {
 	 */
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-		println testSuiteContext.getTestSuiteId()
-		WebUI.closeBrowser()
+//		println testSuiteContext.getTestSuiteId()
+//		WebUI.closeBrowser()
 	}
 }

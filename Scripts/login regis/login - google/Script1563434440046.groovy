@@ -17,7 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.target+'sehatq.com/')
+WebUI.navigateToUrl(GlobalVariable.target + 'sehatq.com/')
 
 WebUI.waitForPageLoad(5)
 

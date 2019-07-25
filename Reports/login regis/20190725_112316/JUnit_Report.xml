@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login regis" time="106" tests="5" failures="1" errors="0">
+   <testsuite name="login regis" tests="5" failures="1" errors="0" time="106" timestamp="2019-07-25 11:23:19" hostname="Felix Y - LAPTOP-FKLO5HNS" id="Test Suites/login regis">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\login regis\\20190725_112316"/>
+         <property name="logFiles" value="C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\login regis\\20190725_112316\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\login regis\\20190725_112316\\1564028686912.png"/>
+         <property name="hostName" value="Felix Y - LAPTOP-FKLO5HNS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 75.0.3770.142"/>
+         <property name="hostAddress" value="172.22.250.220"/>
+         <property name="sessionId" value="7b4abe123e0b24641261faa43e18ad36"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login regis/regis - normal regis" classname="Test Cases/login regis/regis - normal regis" status="PASSED">
+         <system-out><![CDATA[2019-07-25 11:23:20 - [TEST_CASE][PASSED] - Test Cases/login regis/regis - normal regis: Test Cases/login regis/regis - normal regis
+
+2019-07-25 11:23:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-25 11:23:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-25 11:23:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-25 11:23:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-25 11:23:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-25 11:23:25 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-25 11:23:25 - [TEST_STEP][PASSED] - navigateToUrl(target + "sehatq.com/"): Navigate to 'https://www.sehatq.com/' successfully
+
+2019-07-25 11:23:26 - [MESSAGE][PASSED] - Navigate to 'https://www.sehatq.com/' successfully
+
+2019-07-25 11:23:26 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-07-25 11:23:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-25 11:23:29 - [TEST_STEP][PASSED] - rng = Math.random() * 100000000: null
+
+2019-07-25 11:23:29 - [TEST_STEP][PASSED] - randomemail = "test@" + rng + ".com": null
+
+2019-07-25 11:23:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/regis/button_Login  Daftar Baru")): Object: 'Object Repository/login regis/regis/button_Login  Daftar Baru' is clicked on
+
+2019-07-25 11:23:29 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/regis/button_Login  Daftar Baru' is clicked on
+
+2019-07-25 11:23:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/login regis/regis/input_Alamat E-Mail_email"), 5): Object 'Object Repository/login regis/regis/input_Alamat E-Mail_email' is visible
+
+2019-07-25 11:23:30 - [MESSAGE][PASSED] - Object 'Object Repository/login regis/regis/input_Alamat E-Mail_email' is visible
+
+2019-07-25 11:23:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/regis/button_Daftar")): Object: 'Object Repository/login regis/regis/button_Daftar' is clicked on
+
+2019-07-25 11:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/regis/button_Daftar' is clicked on
+
+2019-07-25 11:23:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("login regis/regis/input_Nama_name"), 5): Object 'Object Repository/login regis/regis/input_Nama_name' is visible
+
+2019-07-25 11:23:31 - [MESSAGE][PASSED] - Object 'Object Repository/login regis/regis/input_Nama_name' is visible
+
+2019-07-25 11:23:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login regis/regis/input_Nama_name"), "Automated registration test"): Text 'Automated registration test' is set on object 'Object Repository/login regis/regis/input_Nama_name'
+
+2019-07-25 11:23:32 - [MESSAGE][PASSED] - Text 'Automated registration test' is set on object 'Object Repository/login regis/regis/input_Nama_name'
+
+2019-07-25 11:23:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login regis/regis/input_Email_email"), randomemail): Text 'test@29353254.com' is set on object 'Object Repository/login regis/regis/input_Email_email'
+
+2019-07-25 11:23:33 - [MESSAGE][PASSED] - Text 'test@29353254.com' is set on object 'Object Repository/login regis/regis/input_Email_email'
+
+2019-07-25 11:23:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/login regis/regis/input_Kata Sandi_password"), "VU1orW/zbPMAsSeA5V5+EA=="): Text ****** has been set on object 'Object Repository/login regis/regis/input_Kata Sandi_password'
+
+2019-07-25 11:23:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login regis/regis/input_Kata Sandi_password'
+
+2019-07-25 11:23:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/login regis/regis/select_Tanggal"), "1", true): All options with value '1' are selected in object 'Object Repository/login regis/regis/select_Tanggal'  using regular expression
+
+2019-07-25 11:23:34 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/login regis/regis/select_Tanggal'  using regular expression
+
+2019-07-25 11:23:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/login regis/regis/select_Bulan"), "1", true): All options with value '1' are selected in object 'Object Repository/login regis/regis/select_Bulan'  using regular expression
+
+2019-07-25 11:23:34 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/login regis/regis/select_Bulan'  using regular expression
+
+2019-07-25 11:23:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login regis/regis/input_Tahun Lahir_bod-tahun"), "1990"): Text '1990' is set on object 'Object Repository/login regis/regis/input_Tahun Lahir_bod-tahun'
+
+2019-07-25 11:23:34 - [MESSAGE][PASSED] - Text '1990' is set on object 'Object Repository/login regis/regis/input_Tahun Lahir_bod-tahun'
+
+2019-07-25 11:23:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/regis/i_Prev_fas fa-chevron-circle-r")): Object: 'Object Repository/login regis/regis/i_Prev_fas fa-chevron-circle-r' is clicked on
+
+2019-07-25 11:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/regis/i_Prev_fas fa-chevron-circle-r' is clicked on
+
+2019-07-25 11:23:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-07-25 11:23:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-25 11:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/regis/label_Rajin Olahraga")): Object: 'Object Repository/login regis/regis/label_Rajin Olahraga' is clicked on
+
+2019-07-25 11:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/regis/label_Rajin Olahraga' is clicked on
+
+2019-07-25 11:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/regis/label_Perlu Refreshing")): Object: 'Object Repository/login regis/regis/label_Perlu Refreshing' is clicked on
+
+2019-07-25 11:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/regis/label_Perlu Refreshing' is clicked on
+
+2019-07-25 11:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/regis/label_Jaga Makan")): Object: 'Object Repository/login regis/regis/label_Jaga Makan' is clicked on
+
+2019-07-25 11:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/regis/label_Jaga Makan' is clicked on
+
+2019-07-25 11:23:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/regis/label_Rutin Banget")): Object: 'Object Repository/login regis/regis/label_Rutin Banget' is clicked on
+
+2019-07-25 11:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/regis/label_Rutin Banget' is clicked on
+
+2019-07-25 11:23:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/regis/i_Prev_fas fa-chevron-circle-r")): Object: 'Object Repository/login regis/regis/i_Prev_fas fa-chevron-circle-r' is clicked on
+
+2019-07-25 11:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/regis/i_Prev_fas fa-chevron-circle-r' is clicked on
+
+2019-07-25 11:23:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-07-25 11:23:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-25 11:23:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/regis/label_MPASI")): Object: 'Object Repository/login regis/regis/label_MPASI' is clicked on
+
+2019-07-25 11:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/regis/label_MPASI' is clicked on
+
+2019-07-25 11:23:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/regis/label_PerkembanganBayi")): Object: 'Object Repository/login regis/regis/label_PerkembanganBayi' is clicked on
+
+2019-07-25 11:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/regis/label_PerkembanganBayi' is clicked on
+
+2019-07-25 11:23:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/regis/label_LatihanOtak")): Object: 'Object Repository/login regis/regis/label_LatihanOtak' is clicked on
+
+2019-07-25 11:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/regis/label_LatihanOtak' is clicked on
+
+2019-07-25 11:23:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/regis/button_Register")): Object: 'Object Repository/login regis/regis/button_Register' is clicked on
+
+2019-07-25 11:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/regis/button_Register' is clicked on
+
+2019-07-25 11:23:39 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-07-25 11:23:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-25 11:23:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login regis/login button"), 5): Object 'Object Repository/login regis/login button' is present
+
+2019-07-25 11:23:42 - [MESSAGE][PASSED] - Object 'Object Repository/login regis/login button' is present
+
+2019-07-25 11:23:42 - [TEST_STEP][PASSED] - a = getText(findTestObject("login regis/login button")): Text of object 'Object Repository/login regis/login button' is: 'Hi, Automated'
+
+2019-07-25 11:23:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/login regis/login button' is: 'Hi, Automated'
+
+2019-07-25 11:23:42 - [TEST_STEP][PASSED] - verifyMatch(a, "Hi, Automated", false): Actual text 'Hi, Automated' and expected text 'Hi, Automated' are matched 
+
+2019-07-25 11:23:42 - [MESSAGE][PASSED] - Actual text 'Hi, Automated' and expected text 'Hi, Automated' are matched 
+
+2019-07-25 11:23:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-25 11:23:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login regis/login - normal email" classname="Test Cases/login regis/login - normal email" status="PASSED">
+         <system-out><![CDATA[2019-07-25 11:23:43 - [TEST_CASE][PASSED] - Test Cases/login regis/login - normal email: Test Cases/login regis/login - normal email
+
+2019-07-25 11:23:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-25 11:23:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-25 11:23:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-25 11:23:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-25 11:23:47 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-25 11:23:47 - [TEST_STEP][PASSED] - navigateToUrl(target + "sehatq.com/"): Navigate to 'https://www.sehatq.com/' successfully
+
+2019-07-25 11:23:48 - [MESSAGE][PASSED] - Navigate to 'https://www.sehatq.com/' successfully
+
+2019-07-25 11:23:48 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-07-25 11:23:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-25 11:23:50 - [TEST_STEP][PASSED] - click(findTestObject("rumah sakit/booking logged in/button_Login  Daftar Baru")): Object: 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' is clicked on
+
+2019-07-25 11:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' is clicked on
+
+2019-07-25 11:23:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("rumah sakit/booking logged in/input_Alamat E-Mail_email"), 5): Object 'Object Repository/rumah sakit/booking logged in/input_Alamat E-Mail_email' is visible
+
+2019-07-25 11:23:50 - [MESSAGE][PASSED] - Object 'Object Repository/rumah sakit/booking logged in/input_Alamat E-Mail_email' is visible
+
+2019-07-25 11:23:50 - [TEST_STEP][PASSED] - setText(findTestObject("rumah sakit/booking logged in/input_Alamat E-Mail_email"), "kuning@color.com"): Text 'kuning@color.com' is set on object 'Object Repository/rumah sakit/booking logged in/input_Alamat E-Mail_email'
+
+2019-07-25 11:23:51 - [MESSAGE][PASSED] - Text 'kuning@color.com' is set on object 'Object Repository/rumah sakit/booking logged in/input_Alamat E-Mail_email'
+
+2019-07-25 11:23:51 - [TEST_STEP][PASSED] - setText(findTestObject("rumah sakit/booking logged in/input_Kata Sandi_password"), "123sehatQ!"): Text '123sehatQ!' is set on object 'Object Repository/rumah sakit/booking logged in/input_Kata Sandi_password'
+
+2019-07-25 11:23:51 - [MESSAGE][PASSED] - Text '123sehatQ!' is set on object 'Object Repository/rumah sakit/booking logged in/input_Kata Sandi_password'
+
+2019-07-25 11:23:51 - [TEST_STEP][PASSED] - click(findTestObject("rumah sakit/booking logged in/button_Masuk")): Object: 'Object Repository/rumah sakit/booking logged in/button_Masuk' is clicked on
+
+2019-07-25 11:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/rumah sakit/booking logged in/button_Masuk' is clicked on
+
+2019-07-25 11:23:51 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-07-25 11:23:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-25 11:23:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login regis/login button"), 5): Object 'Object Repository/login regis/login button' is present
+
+2019-07-25 11:23:56 - [MESSAGE][PASSED] - Object 'Object Repository/login regis/login button' is present
+
+2019-07-25 11:23:56 - [TEST_STEP][PASSED] - a = getText(findTestObject("login regis/login button")): Text of object 'Object Repository/login regis/login button' is: 'Hi, Kuning'
+
+2019-07-25 11:23:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/login regis/login button' is: 'Hi, Kuning'
+
+2019-07-25 11:23:56 - [TEST_STEP][PASSED] - verifyMatch(a, "Hi, Kuning", false): Actual text 'Hi, Kuning' and expected text 'Hi, Kuning' are matched 
+
+2019-07-25 11:23:56 - [MESSAGE][PASSED] - Actual text 'Hi, Kuning' and expected text 'Hi, Kuning' are matched 
+
+2019-07-25 11:23:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-25 11:23:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login regis/login - facebook" classname="Test Cases/login regis/login - facebook" status="PASSED">
+         <system-out><![CDATA[2019-07-25 11:23:57 - [TEST_CASE][PASSED] - Test Cases/login regis/login - facebook: Test Cases/login regis/login - facebook
+
+2019-07-25 11:23:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-25 11:23:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-25 11:24:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-25 11:24:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-25 11:24:01 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-25 11:24:01 - [TEST_STEP][PASSED] - navigateToUrl(target + "sehatq.com/"): Navigate to 'https://www.sehatq.com/' successfully
+
+2019-07-25 11:24:04 - [MESSAGE][PASSED] - Navigate to 'https://www.sehatq.com/' successfully
+
+2019-07-25 11:24:04 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-07-25 11:24:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-25 11:24:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/login facebook/button_Login  Daftar Baru")): Object: 'Object Repository/login regis/login facebook/button_Login  Daftar Baru' is clicked on
+
+2019-07-25 11:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/login facebook/button_Login  Daftar Baru' is clicked on
+
+2019-07-25 11:24:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/login regis/login facebook/input_Alamat E-Mail_email"), 5): Object 'Object Repository/login regis/login facebook/input_Alamat E-Mail_email' is visible
+
+2019-07-25 11:24:05 - [MESSAGE][PASSED] - Object 'Object Repository/login regis/login facebook/input_Alamat E-Mail_email' is visible
+
+2019-07-25 11:24:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/login facebook/a_Sign in with Facebook")): Object: 'Object Repository/login regis/login facebook/a_Sign in with Facebook' is clicked on
+
+2019-07-25 11:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/login facebook/a_Sign in with Facebook' is clicked on
+
+2019-07-25 11:24:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login regis/login facebook/input_Login ke Facebook_email"), "felix.yurisman@gmail.com"): Text 'felix.yurisman@gmail.com' is set on object 'Object Repository/login regis/login facebook/input_Login ke Facebook_email'
+
+2019-07-25 11:24:09 - [MESSAGE][PASSED] - Text 'felix.yurisman@gmail.com' is set on object 'Object Repository/login regis/login facebook/input_Login ke Facebook_email'
+
+2019-07-25 11:24:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/login regis/login facebook/input_Login ke Facebook_pass"), "D2MScLbSYg5YNi1NQdElsA=="): Text ****** has been set on object 'Object Repository/login regis/login facebook/input_Login ke Facebook_pass'
+
+2019-07-25 11:24:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login regis/login facebook/input_Login ke Facebook_pass'
+
+2019-07-25 11:24:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/login facebook/button_Masuk")): Object: 'Object Repository/login regis/login facebook/button_Masuk' is clicked on
+
+2019-07-25 11:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/login facebook/button_Masuk' is clicked on
+
+2019-07-25 11:24:13 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-07-25 11:24:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-25 11:24:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login regis/login button"), 5): Object 'Object Repository/login regis/login button' is present
+
+2019-07-25 11:24:14 - [MESSAGE][PASSED] - Object 'Object Repository/login regis/login button' is present
+
+2019-07-25 11:24:14 - [TEST_STEP][PASSED] - a = getText(findTestObject("login regis/login button")): Text of object 'Object Repository/login regis/login button' is: 'Hi, Felix'
+
+2019-07-25 11:24:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/login regis/login button' is: 'Hi, Felix'
+
+2019-07-25 11:24:14 - [TEST_STEP][PASSED] - verifyMatch(a, "Hi, Felix", false): Actual text 'Hi, Felix' and expected text 'Hi, Felix' are matched 
+
+2019-07-25 11:24:14 - [MESSAGE][PASSED] - Actual text 'Hi, Felix' and expected text 'Hi, Felix' are matched 
+
+2019-07-25 11:24:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-25 11:24:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login regis/login - google" classname="Test Cases/login regis/login - google" status="PASSED">
+         <system-out><![CDATA[2019-07-25 11:24:15 - [TEST_CASE][PASSED] - Test Cases/login regis/login - google: Test Cases/login regis/login - google
+
+2019-07-25 11:24:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-25 11:24:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-25 11:24:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-25 11:24:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-25 11:24:18 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-25 11:24:18 - [TEST_STEP][PASSED] - navigateToUrl(target + "sehatq.com/"): Navigate to 'https://www.sehatq.com/' successfully
+
+2019-07-25 11:24:21 - [MESSAGE][PASSED] - Navigate to 'https://www.sehatq.com/' successfully
+
+2019-07-25 11:24:21 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-07-25 11:24:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-25 11:24:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/login google/button_Login  Daftar Baru")): Object: 'Object Repository/login regis/login google/button_Login  Daftar Baru' is clicked on
+
+2019-07-25 11:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/login google/button_Login  Daftar Baru' is clicked on
+
+2019-07-25 11:24:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/login regis/login google/input_Alamat E-Mail_email"), 5): Object 'Object Repository/login regis/login google/input_Alamat E-Mail_email' is visible
+
+2019-07-25 11:24:23 - [MESSAGE][PASSED] - Object 'Object Repository/login regis/login google/input_Alamat E-Mail_email' is visible
+
+2019-07-25 11:24:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/login google/a_Sign in with Google")): Object: 'Object Repository/login regis/login google/a_Sign in with Google' is clicked on
+
+2019-07-25 11:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/login google/a_Sign in with Google' is clicked on
+
+2019-07-25 11:24:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login regis/login google/input_sehatq.com_identifier"), "felix.yurisman@sehatq.com"): Text 'felix.yurisman@sehatq.com' is set on object 'Object Repository/login regis/login google/input_sehatq.com_identifier'
+
+2019-07-25 11:24:25 - [MESSAGE][PASSED] - Text 'felix.yurisman@sehatq.com' is set on object 'Object Repository/login regis/login google/input_sehatq.com_identifier'
+
+2019-07-25 11:24:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/login google/span_Berikutnya")): Object: 'Object Repository/login regis/login google/span_Berikutnya' is clicked on
+
+2019-07-25 11:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/login google/span_Berikutnya' is clicked on
+
+2019-07-25 11:24:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("login regis/login google/input_google pass"), 5): Object 'Object Repository/login regis/login google/input_google pass' is visible
+
+2019-07-25 11:24:27 - [MESSAGE][PASSED] - Object 'Object Repository/login regis/login google/input_google pass' is visible
+
+2019-07-25 11:24:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("login regis/login google/input_google pass"), "Mz5h43mX6kUTLTQ7rovVfw=="): Text ****** has been set on object 'Object Repository/login regis/login google/input_google pass'
+
+2019-07-25 11:24:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login regis/login google/input_google pass'
+
+2019-07-25 11:24:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login regis/login google/span_Berikutnya")): Object: 'Object Repository/login regis/login google/span_Berikutnya' is clicked on
+
+2019-07-25 11:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/login regis/login google/span_Berikutnya' is clicked on
+
+2019-07-25 11:24:27 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-07-25 11:24:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-25 11:24:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("login regis/login button"), 5): Object 'Object Repository/login regis/login button' is present
+
+2019-07-25 11:24:32 - [MESSAGE][PASSED] - Object 'Object Repository/login regis/login button' is present
+
+2019-07-25 11:24:32 - [TEST_STEP][PASSED] - a = getText(findTestObject("login regis/login button")): Text of object 'Object Repository/login regis/login button' is: 'Hi, Felix'
+
+2019-07-25 11:24:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/login regis/login button' is: 'Hi, Felix'
+
+2019-07-25 11:24:32 - [TEST_STEP][PASSED] - verifyMatch(a, "Hi, Felix", false): Actual text 'Hi, Felix' and expected text 'Hi, Felix' are matched 
+
+2019-07-25 11:24:32 - [MESSAGE][PASSED] - Actual text 'Hi, Felix' and expected text 'Hi, Felix' are matched 
+
+2019-07-25 11:24:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-25 11:24:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login regis/log out - keluar button" classname="Test Cases/login regis/log out - keluar button" status="FAILED">
+         <failure type="FAILED" message="Test Cases/login regis/log out - keluar button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' located by 'By.xpath: //button[@id='btn-login-register']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at log out - keluar button.run(log out - keluar button:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564028596756.run(TempTestSuite1564028596756.groovy:36)
+"/>
+         <system-out><![CDATA[2019-07-25 11:24:32 - [TEST_CASE][FAILED] - Test Cases/login regis/log out - keluar button: Test Cases/login regis/log out - keluar button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' located by 'By.xpath: //button[@id='btn-login-register']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at log out - keluar button.run(log out - keluar button:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564028596756.run(TempTestSuite1564028596756.groovy:36)
+
+
+2019-07-25 11:24:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-25 11:24:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-25 11:24:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-25 11:24:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-25 11:24:36 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-25 11:24:36 - [TEST_STEP][FAILED] - a = getText(findTestObject("rumah sakit/booking logged in/button_Login  Daftar Baru")): a = getText(findTestObject("rumah sakit/booking logged in/button_Login  Daftar Baru")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' located by 'By.xpath: //button[@id='btn-login-register']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at log out - keluar button.run(log out - keluar button:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564028596756.run(TempTestSuite1564028596756.groovy:36)
+
+
+2019-07-25 11:24:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='btn-login-register']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-25 11:24:47 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' located by 'By.xpath: //button[@id='btn-login-register']' not found)
+[[ATTACHMENT|C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\login regis\\20190725_112316\\1564028686912.png]]
+
+2019-07-25 11:24:47 - [MESSAGE][FAILED] - a = getText(findTestObject("rumah sakit/booking logged in/button_Login  Daftar Baru")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' located by 'By.xpath: //button[@id='btn-login-register']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at log out - keluar button.run(log out - keluar button:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564028596756.run(TempTestSuite1564028596756.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-07-25 11:24:32 - [TEST_CASE][FAILED] - Test Cases/login regis/log out - keluar button: Test Cases/login regis/log out - keluar button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' located by 'By.xpath: //button[@id='btn-login-register']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at log out - keluar button.run(log out - keluar button:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564028596756.run(TempTestSuite1564028596756.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login regis/log out - direct url" classname="Test Cases/login regis/log out - direct url" status="PASSED">
+         <system-out><![CDATA[2019-07-25 11:24:47 - [TEST_CASE][PASSED] - Test Cases/login regis/log out - direct url: Test Cases/login regis/log out - direct url
+
+2019-07-25 11:24:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-25 11:24:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-25 11:24:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-25 11:24:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-25 11:24:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-25 11:24:51 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-25 11:24:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("404 checker by sitemap/404 checker by sitemap - login steps"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/404 checker by sitemap/404 checker by sitemap - login steps' successfully
+
+2019-07-25 11:24:51 - [TEST_CASE][PASSED] - Test Cases/404 checker by sitemap/404 checker by sitemap - login steps: Test Cases/404 checker by sitemap/404 checker by sitemap - login steps
+
+2019-07-25 11:24:51 - [TEST_STEP][PASSED] - navigateToUrl(target + "sehatq.com/"): Navigate to 'https://www.sehatq.com/' successfully
+
+2019-07-25 11:24:53 - [MESSAGE][PASSED] - Navigate to 'https://www.sehatq.com/' successfully
+
+2019-07-25 11:24:53 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-07-25 11:24:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-25 11:24:57 - [TEST_STEP][PASSED] - click(findTestObject("rumah sakit/booking logged in/button_Login  Daftar Baru")): Object: 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' is clicked on
+
+2019-07-25 11:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' is clicked on
+
+2019-07-25 11:24:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("rumah sakit/booking logged in/input_Alamat E-Mail_email"), 5): Object 'Object Repository/rumah sakit/booking logged in/input_Alamat E-Mail_email' is visible
+
+2019-07-25 11:24:58 - [MESSAGE][PASSED] - Object 'Object Repository/rumah sakit/booking logged in/input_Alamat E-Mail_email' is visible
+
+2019-07-25 11:24:58 - [TEST_STEP][PASSED] - setText(findTestObject("rumah sakit/booking logged in/input_Alamat E-Mail_email"), "kuning@color.com"): Text 'kuning@color.com' is set on object 'Object Repository/rumah sakit/booking logged in/input_Alamat E-Mail_email'
+
+2019-07-25 11:24:58 - [MESSAGE][PASSED] - Text 'kuning@color.com' is set on object 'Object Repository/rumah sakit/booking logged in/input_Alamat E-Mail_email'
+
+2019-07-25 11:24:58 - [TEST_STEP][PASSED] - setText(findTestObject("rumah sakit/booking logged in/input_Kata Sandi_password"), "123sehatQ!"): Text '123sehatQ!' is set on object 'Object Repository/rumah sakit/booking logged in/input_Kata Sandi_password'
+
+2019-07-25 11:24:58 - [MESSAGE][PASSED] - Text '123sehatQ!' is set on object 'Object Repository/rumah sakit/booking logged in/input_Kata Sandi_password'
+
+2019-07-25 11:24:58 - [TEST_STEP][PASSED] - click(findTestObject("rumah sakit/booking logged in/button_Masuk")): Object: 'Object Repository/rumah sakit/booking logged in/button_Masuk' is clicked on
+
+2019-07-25 11:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/rumah sakit/booking logged in/button_Masuk' is clicked on
+
+2019-07-25 11:24:58 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-07-25 11:24:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-25 11:24:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/404 checker by sitemap/404 checker by sitemap - login steps' successfully
+
+2019-07-25 11:24:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-25 11:25:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-25 11:25:00 - [TEST_STEP][PASSED] - navigateToUrl(target + "sehatq.com/keluar"): Navigate to 'https://www.sehatq.com/keluar' successfully
+
+2019-07-25 11:25:05 - [MESSAGE][PASSED] - Navigate to 'https://www.sehatq.com/keluar' successfully
+
+2019-07-25 11:25:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-25 11:25:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-25 11:23:19 - [TEST_SUITE][FAILED] - login regis: Test Cases/login regis/log out - keluar button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' located by 'By.xpath: //button[@id='btn-login-register']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at log out - keluar button.run(log out - keluar button:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564028596756.run(TempTestSuite1564028596756.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-07-25 11:23:19 - [TEST_SUITE][FAILED] - login regis: Test Cases/login regis/log out - keluar button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' located by 'By.xpath: //button[@id='btn-login-register']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at log out - keluar button.run(log out - keluar button:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564028596756.run(TempTestSuite1564028596756.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

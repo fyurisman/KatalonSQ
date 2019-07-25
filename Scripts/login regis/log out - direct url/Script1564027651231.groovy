@@ -17,27 +17,15 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.target + 'sehatq.com/')
+WebUI.callTestCase(findTestCase('404 checker by sitemap/404 checker by sitemap - login steps'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(5)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('rumah sakit/booking logged in/button_Login  Daftar Baru'))
+WebUI.navigateToUrl(GlobalVariable.target + 'sehatq.com/keluar')
 
-WebUI.waitForElementVisible(findTestObject('rumah sakit/booking logged in/input_Alamat E-Mail_email'), 5)
+a = WebUI.getText(findTestObject('rumah sakit/booking logged in/button_Login  Daftar Baru'))
 
-WebUI.setText(findTestObject('rumah sakit/booking logged in/input_Alamat E-Mail_email'), 'kuning@color.com')
-
-WebUI.setText(findTestObject('rumah sakit/booking logged in/input_Kata Sandi_password'), '123sehatQ!')
-
-WebUI.click(findTestObject('rumah sakit/booking logged in/button_Masuk'))
-
-WebUI.waitForPageLoad(5)
-
-WebUI.verifyElementPresent(findTestObject('login regis/login button'), 5)
-
-a = WebUI.getText(findTestObject('login regis/login button'))
-
-WebUI.verifyMatch(a, 'Hi, Kuning', false)
+WebUI.verifyMatch(a, 'Login / Daftar Baru', false)
 
 WebUI.closeBrowser()
 
