@@ -32,9 +32,9 @@ for (int x = 1; x < uerel.size; x++) {
 
     if (WebUI.verifyLinksAccessible(z, FailureHandling.OPTIONAL) == true) {
     } else {
-        CustomKeywords.'writeToExcel.MultipleExcel.TargetExcel'('KR1', GlobalVariable.counter, 1, WebUI.getUrl())
+        CustomKeywords.'writeToExcel.MultipleExcel.TargetExcel'(GlobalVariable.excelresult, GlobalVariable.counter, 1, WebUI.getUrl())
 
-        CustomKeywords.'writeToExcel.MultipleExcel.TargetExcel'('KR1', GlobalVariable.counter, 2, uerel[x])
+        CustomKeywords.'writeToExcel.MultipleExcel.TargetExcel'(GlobalVariable.excelresult, GlobalVariable.counter, 2, uerel[x])
 
         (GlobalVariable.counter)++
     }

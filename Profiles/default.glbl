@@ -14,4 +14,9 @@
       <initValue>'https://www.'</initValue>
       <name>target</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'KatalonResult'</initValue>
+      <name>excelresult</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

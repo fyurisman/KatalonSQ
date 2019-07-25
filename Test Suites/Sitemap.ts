@@ -13,21 +13,21 @@
    <testCaseLink>
       <guid>db81295f-075e-4237-bad6-d244a1c2b41f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/404 checker by sitemap/404 checker by sitemap - before login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>d9a8494f-c1a9-4821-909e-24103de9ea86</id>
+         <id>476cc41f-9601-45bb-9265-064a923b500e</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>15-47</value>
+            <iterationType>ALL</iterationType>
+            <value></value>
          </iterationEntity>
-         <testDataId>Data Files/sitemap before login</testDataId>
+         <testDataId>Data Files/sitemap urls</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>d9a8494f-c1a9-4821-909e-24103de9ea86</testDataLinkId>
+         <testDataLinkId>476cc41f-9601-45bb-9265-064a923b500e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>URL</value>
+         <value>before login</value>
          <variableId>f89c7512-8c4e-47df-ba6b-7e5ebf96cef4</variableId>
       </variableLink>
    </testCaseLink>
@@ -44,17 +44,17 @@
       <testCaseId>Test Cases/404 checker by sitemap/404 checker by sitemap - after login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>1cd644e8-3ddb-4e38-9465-710c72ae8b03</id>
+         <id>d6a76255-00a0-48ed-8a53-39b1121b62c7</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/sitemap after login</testDataId>
+         <testDataId>Data Files/sitemap urls</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>1cd644e8-3ddb-4e38-9465-710c72ae8b03</testDataLinkId>
+         <testDataLinkId>d6a76255-00a0-48ed-8a53-39b1121b62c7</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>URL</value>
+         <value>after login</value>
          <variableId>9bb90353-25ac-4c52-9c88-f3b54d12e3c3</variableId>
       </variableLink>
    </testCaseLink>

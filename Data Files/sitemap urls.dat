@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>sitemap urls</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>9f02a985-e76c-4a1f-bb55-e09b15569c34</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>https%3A%2F%2Fwww.sehatq.com%2F https%3A%2F%2Fwww.sehatq.com%2Fmysehatq%2Fprofile</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fpenyakit https%3A%2F%2Fwww.sehatq.com%2Fmysehatq%2Fmy-booking</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fpenyakit%2FA https%3A%2F%2Fwww.sehatq.com%2Fmysehatq%2Falat-kesehatan</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fpenyakit%2Fkepala https%3A%2F%2Fwww.sehatq.com%2Fmysehatq%2Falat-kesehatan%2Fkalender-imunisasi%3Fid%3D7</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fpenyakit%2Fabses-otak https%3A%2F%2Fwww.sehatq.com%2Fmysehatq%2Falat-kesehatan%2Fkalkulator-indeks-massa-tubuh</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fobat https%3A%2F%2Fwww.sehatq.com%2Fmysehatq%2Falat-kesehatan%2Fkalkulator-persentase-lemak-tubuh</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fobat%2FA https%3A%2F%2Fwww.sehatq.com%2Fmysehatq%2Falat-kesehatan%2Fovulasi</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fobat%2Facarbose https%3A%2F%2Fwww.sehatq.com%2Fmysehatq%2Falat-kesehatan%2Fkehamilan</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fobat%2Fabbotic-xl-tablet-500-mg https%3A%2F%2Fwww.sehatq.com%2Fmysehatq%2Falat-kesehatan%2Ftumbuh-kembang-anak</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fartikel null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fartikel%2Fkehamilan null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fartikel%2Fibu-hamil-sering-anemia-coba-makanan-penambah-darah null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fdokter null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fdokter%2Fsemua null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fdokter%2Fanak null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fdokter%2Fprof-dr-a-afif-siregar-spak-spjp-fiha null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fdokter%2Fanak%2Fjakarta-selatan null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fdokter%2Fcari-dokter null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Ffaskes null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Ffaskes%2Frumah-sakit null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Ffaskes%2Frumah-sakit-al-fauzan-jakarta-islamic-hospital null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Ffaskes%2Frumah-sakit%2Fjakarta-barat null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Ffaskes%2Fcari-faskes null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fpromo null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fpromo%2Flainnya null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fpromo%2Fharga-khusus-usg-4d null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fpromo%2Fbekasi-barat null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Facara null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Facara%2Folahraga null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Facara%2Fanxiety-and-resilience null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Facara%2Fjakarta-barat null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fforum null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fforum%2Fkepala null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fforum%2Fapa-itu-hipotensitekanan-darah-rendah null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fforum%2Ftag%2Fhipotensi null</data>
+   <data>https%3A%2F%2Fstg.sehatq.com%2Fforum%2Fcari%2Fapa null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Ftentang-kami null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fprofil%2Fmaria-yuniar null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fkebijakan-editorial null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fsyarat null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fkontak null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fkebijakan-privasi null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fkarir null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fkarir%2Fsoftware-quality-assurance-qa null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fkarir%2Fapply%2Fsoftware-quality-assurance-qa null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Fcari%3Fq%3Dkantuk null</data>
+   <data>https%3A%2F%2Fwww.sehatq.com%2Ftag%2Fbpjs-kesehatan null</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>before login</name>
+      <size>47</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>after login</name>
+      <size>47</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

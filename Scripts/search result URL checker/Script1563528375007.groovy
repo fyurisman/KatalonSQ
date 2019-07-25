@@ -14,21 +14,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 /**works only at headless browser*/
-
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.target+'sehatq.com/')
+WebUI.navigateToUrl(GlobalVariable.target + 'sehatq.com/')
 
 WebUI.waitForPageLoad(10)
 
 /**enter desired query*/
-
 WebUI.setText(findTestObject('Object Repository/search result/Page_SehatQ - Asisten Kesehatan And/input_SehatQ  Asisten Kesehata'), 
-    'batuk')
-//%20a for all
+    'kantuk')
 
+//%20a for all
 WebUI.click(findTestObject('Object Repository/search result/Page_SehatQ - Asisten Kesehatan And/button_SehatQ  Asisten Kesehat'))
 
 WebUI.waitForPageLoad(10)
@@ -36,36 +34,51 @@ WebUI.waitForPageLoad(10)
 while (WebUI.verifyElementVisible(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Disease'), 
     FailureHandling.OPTIONAL) == true) {
     WebUI.click(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Disease'), FailureHandling.OPTIONAL)
+
     WebUI.delay(1)
-	WebUI.scrollToElement(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Disease'), 1, FailureHandling.OPTIONAL)
+
+    WebUI.scrollToElement(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Disease'), 
+        1, FailureHandling.STOP_ON_FAILURE)
 }
-WebUI.scrollToPosition(0, 0)
+
 while (WebUI.verifyElementVisible(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Drug'), 
     FailureHandling.OPTIONAL) == true) {
     WebUI.click(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Drug'), FailureHandling.OPTIONAL)
+
     WebUI.delay(1)
-	WebUI.scrollToElement(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Drug'), 1, FailureHandling.OPTIONAL)
+
+    WebUI.scrollToElement(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Drug'), 
+        1, FailureHandling.STOP_ON_FAILURE)
 }
-WebUI.scrollToPosition(0, 0)
+
 while (WebUI.verifyElementVisible(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Article'), 
     FailureHandling.OPTIONAL) == true) {
     WebUI.click(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Article'), FailureHandling.OPTIONAL)
+
     WebUI.delay(1)
-	WebUI.scrollToElement(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Article'), 1, FailureHandling.OPTIONAL)
+
+    WebUI.scrollToElement(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Article'), 
+        1, FailureHandling.STOP_ON_FAILURE)
 }
-WebUI.scrollToPosition(0, 0)
+
 while (WebUI.verifyElementVisible(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Doctor'), 
     FailureHandling.OPTIONAL) == true) {
     WebUI.click(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Doctor'), FailureHandling.OPTIONAL)
+
     WebUI.delay(1)
-	WebUI.scrollToElement(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Doctor'), 1, FailureHandling.OPTIONAL)
+
+    WebUI.scrollToElement(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Doctor'), 
+        1, FailureHandling.STOP_ON_FAILURE)
 }
-WebUI.scrollToPosition(0, 0)
+
 while (WebUI.verifyElementVisible(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Hospital'), 
     FailureHandling.OPTIONAL) == true) {
     WebUI.click(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Hospital'), FailureHandling.OPTIONAL)
+
     WebUI.delay(1)
-	WebUI.scrollToElement(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Hospital'), 1, FailureHandling.OPTIONAL)
+
+    WebUI.scrollToElement(findTestObject('Object Repository/search result/Page_SehatQ - Pencarian/button_Load More Hospital'), 
+        1, FailureHandling.STOP_ON_FAILURE)
 }
 
 def uerel = []
@@ -91,4 +104,6 @@ for (int x = 0; x < uerel.size; x++) {
 }
 
 WebUI.closeBrowser()
+
+WebUI.waitForPageLoad(0)
 
