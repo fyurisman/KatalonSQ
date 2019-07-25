@@ -19,11 +19,11 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.target+'sehatq.com/faskes/rumah-sakit-abdi-waluyo')
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(3)
 
 WebUI.click(findTestObject('rumah sakit/booking logged in/button_Login  Daftar Baru'))
 
-WebUI.waitForElementVisible(findTestObject('rumah sakit/booking logged in/input_Alamat E-Mail_email'), 5)
+WebUI.waitForElementVisible(findTestObject('rumah sakit/booking logged in/input_Alamat E-Mail_email'), 3)
 
 WebUI.setText(findTestObject('rumah sakit/booking logged in/input_Alamat E-Mail_email'), 'kuning@color.com')
 
@@ -33,30 +33,32 @@ WebUI.click(findTestObject('rumah sakit/booking logged in/button_Masuk'))
 
 WebUI.delay(3)
 
-WebUI.scrollToElement(findTestObject('rumah sakit/booking not login/div_Kandungan'), 5)
+WebUI.scrollToElement(findTestObject('rumah sakit/booking not login/div_Kandungan'), 3)
 
 WebUI.click(findTestObject('rumah sakit/booking not login/div_Kandungan'))
 
+if (WebUI.verifyElementNotPresent(findTestObject('Object Repository/dokter new/loading animation'), 3, FailureHandling.OPTIONAL) == true) {
 
+	while (WebUI.verifyElementPresent(findTestObject('rumah sakit/booking logged in/dokter section header 2'), 5, FailureHandling.OPTIONAL) == true) {
+	    a = (('/html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[' + 
+	    GlobalVariable.counter) + ']/div[3]/a')
+	
+	    TestObject schedulebooking = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, 
+	        a, true)
+	
+	    if (WebUI.verifyElementClickable(schedulebooking, FailureHandling.OPTIONAL) == true) {
+		        WebUI.click(schedulebooking)
+		    } else if (GlobalVariable.counter != 8) {
+		        (GlobalVariable.counter)++
+	    } else {break}
+	}
+} else {
+	WebUI.comment('schedule loading problem')
+		}
 
-while (WebUI.verifyElementPresent(findTestObject('rumah sakit/booking logged in/dokter section header 2'), 5, FailureHandling.OPTIONAL) == true) {
-    a = (('/html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[' + 
-    GlobalVariable.counter) + ']/div[3]/a')
+WebUI.waitForPageLoad(3)
 
-    TestObject schedulebooking = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, 
-        a, true)
-
-    if (WebUI.verifyElementClickable(schedulebooking, FailureHandling.OPTIONAL) == true) {
-        WebUI.click(schedulebooking)
-    } else if (GlobalVariable.counter != 8) {
-        (GlobalVariable.counter)++
-    } else {
-	break}
-}
-
-WebUI.waitForPageLoad(5)
-
-WebUI.verifyElementPresent(findTestObject('rumah sakit/booking logged in/div_Buat Janji Dokter'), 5)
+WebUI.verifyElementPresent(findTestObject('rumah sakit/booking logged in/div_Buat Janji Dokter'), 3)
 
 GlobalVariable.counter = 1
 

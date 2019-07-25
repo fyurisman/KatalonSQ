@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='pageHCP']/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/ul/li/div/div/table/thead/tr/th[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//th[@class = 'picker-switch' and @data-action = 'pickerSwitch']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,14 +24,14 @@
       <value>th</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>picker-switch</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-action</name>
       <type>Main</type>
@@ -41,14 +45,14 @@
       <value>5</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
       <value>Select Month</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

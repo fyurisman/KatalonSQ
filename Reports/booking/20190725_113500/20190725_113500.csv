@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+booking,Chrome 75.0.3770.142,,2019-07-25 11:35:04,2019-07-25 11:36:44,1m - 39.322s,FAILED
+,,,,,,
+Test Cases/dokter new/dokter - booking not login,Chrome 75.0.3770.142,,2019-07-25 11:35:05,2019-07-25 11:35:24,19.379s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,2019-07-25 11:35:05,2019-07-25 11:35:09,4.062s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-25 11:35:09,2019-07-25 11:35:10,1.167s,PASSED
+"navigateToUrl(target + ""sehatq.com/dokter/dr-patrianef-spbkv"")",Chrome 75.0.3770.142,,2019-07-25 11:35:10,2019-07-25 11:35:12,1.494s,PASSED
+waitForAlert(5),Chrome 75.0.3770.142,,2019-07-25 11:35:12,2019-07-25 11:35:18,5.790s,PASSED
+"click(findTestObject(""dokter new/booking not login/input_View Map_date""))",Chrome 75.0.3770.142,,2019-07-25 11:35:18,2019-07-25 11:35:18,0.684s,PASSED
+"click(findTestObject(""Object Repository/dokter new/booking not login/th_Juli 2019""))",Chrome 75.0.3770.142,,2019-07-25 11:35:18,2019-07-25 11:35:19,0.269s,PASSED
+"click(findTestObject(""Object Repository/dokter new/booking not login/i_Mg_fa fa-chevron-right""))",Chrome 75.0.3770.142,,2019-07-25 11:35:19,2019-07-25 11:35:19,0.132s,PASSED
+"click(findTestObject(""Object Repository/dokter new/booking not login/span_Jan""))",Chrome 75.0.3770.142,,2019-07-25 11:35:19,2019-07-25 11:35:19,0.146s,PASSED
+"click(findTestObject(""Object Repository/dokter new/booking not login/td_6""))",Chrome 75.0.3770.142,,2019-07-25 11:35:19,2019-07-25 11:35:19,0.177s,PASSED
+"click(findTestObject(""Object Repository/dokter new/booking not login/a_1830 - Selesai""))",Chrome 75.0.3770.142,,2019-07-25 11:35:19,2019-07-25 11:35:21,2.357s,PASSED
+delay(2),Chrome 75.0.3770.142,,2019-07-25 11:35:21,2019-07-25 11:35:24,2.045s,PASSED
+"verifyElementVisible(findTestObject(""rumah sakit/booking not login/login pop up""))",Chrome 75.0.3770.142,,2019-07-25 11:35:24,2019-07-25 11:35:24,0.064s,PASSED
+closeBrowser(),Chrome 75.0.3770.142,,2019-07-25 11:35:24,2019-07-25 11:35:24,0.702s,PASSED
+,,,,,,
+Test Cases/dokter new/dokter - booking logged in,Chrome 75.0.3770.142,,2019-07-25 11:35:24,2019-07-25 11:35:36,11.394s,FAILED
+"openBrowser("""")",Chrome 75.0.3770.142,,2019-07-25 11:35:25,2019-07-25 11:35:27,2.498s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-25 11:35:27,2019-07-25 11:35:28,1.148s,PASSED
+"navigateToUrl(target + ""sehatq.com/dokter/dr-patrianef-spbkv"")",Chrome 75.0.3770.142,,2019-07-25 11:35:28,2019-07-25 11:35:30,1.700s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:35:30,2019-07-25 11:35:36,5.678s,FAILED
+,,,,,,
+Test Cases/rumah sakit/rumah sakit - booking not login,Chrome 75.0.3770.142,,2019-07-25 11:35:36,2019-07-25 11:35:59,23.197s,FAILED
+"openBrowser("""")",Chrome 75.0.3770.142,,2019-07-25 11:35:36,2019-07-25 11:35:39,3.134s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-25 11:35:39,2019-07-25 11:35:40,1.150s,PASSED
+"navigateToUrl(target + ""sehatq.com/faskes/rumah-sakit-abdi-waluyo"")",Chrome 75.0.3770.142,,2019-07-25 11:35:40,2019-07-25 11:35:42,1.898s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:35:42,2019-07-25 11:35:46,3.540s,PASSED
+"click(findTestObject(""rumah sakit/booking not login/div_Kandungan""))",Chrome 75.0.3770.142,,2019-07-25 11:35:46,2019-07-25 11:35:46,0.305s,PASSED
+"click(findTestObject(""rumah sakit/booking not login/pilih tanggal""))",Chrome 75.0.3770.142,,2019-07-25 11:35:46,2019-07-25 11:35:47,1.130s,PASSED
+"click(findTestObject(""rumah sakit/booking not login/th_Juli 2019""))",Chrome 75.0.3770.142,,2019-07-25 11:35:47,2019-07-25 11:35:59,11.839s,FAILED
+,,,,,,
+Test Cases/rumah sakit/rumah sakit - booking logged in,Chrome 75.0.3770.142,,2019-07-25 11:35:59,2019-07-25 11:36:44,44.804s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,2019-07-25 11:35:59,2019-07-25 11:36:02,3.190s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-25 11:36:02,2019-07-25 11:36:03,1.128s,PASSED
+"navigateToUrl(target + ""sehatq.com/faskes/rumah-sakit-abdi-waluyo"")",Chrome 75.0.3770.142,,2019-07-25 11:36:03,2019-07-25 11:36:05,1.510s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:36:05,2019-07-25 11:36:07,1.899s,PASSED
+"click(findTestObject(""rumah sakit/booking logged in/button_Login  Daftar Baru""))",Chrome 75.0.3770.142,,2019-07-25 11:36:07,2019-07-25 11:36:07,0.213s,PASSED
+"waitForElementVisible(findTestObject(""rumah sakit/booking logged in/input_Alamat E-Mail_email""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:36:07,2019-07-25 11:36:08,0.805s,PASSED
+"setText(findTestObject(""rumah sakit/booking logged in/input_Alamat E-Mail_email""), ""kuning@color.com"")",Chrome 75.0.3770.142,,2019-07-25 11:36:08,2019-07-25 11:36:08,0.240s,PASSED
+"setEncryptedText(findTestObject(""rumah sakit/booking logged in/input_Kata Sandi_password""), ""VU1orW/zbPOwxjV+uFYKbg=="")",Chrome 75.0.3770.142,,2019-07-25 11:36:08,2019-07-25 11:36:08,0.312s,PASSED
+"click(findTestObject(""rumah sakit/booking logged in/button_Masuk""))",Chrome 75.0.3770.142,,2019-07-25 11:36:08,2019-07-25 11:36:09,0.147s,PASSED
+delay(3),Chrome 75.0.3770.142,,2019-07-25 11:36:09,2019-07-25 11:36:12,3.001s,PASSED
+"scrollToElement(findTestObject(""rumah sakit/booking not login/div_Kandungan""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:36:12,2019-07-25 11:36:12,0.312s,PASSED
+"click(findTestObject(""rumah sakit/booking not login/div_Kandungan""))",Chrome 75.0.3770.142,,2019-07-25 11:36:12,2019-07-25 11:36:12,0.218s,PASSED
+"while (verifyElementPresent(findTestObject(""rumah sakit/booking logged in/dokter section header 2""), 5, OPTIONAL) == true)",Chrome 75.0.3770.142,,2019-07-25 11:36:12,2019-07-25 11:36:43,30.803s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:36:43,2019-07-25 11:36:43,0.022s,PASSED
+"verifyElementPresent(findTestObject(""rumah sakit/booking logged in/div_Buat Janji Dokter""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:36:43,2019-07-25 11:36:43,0.041s,PASSED
+counter = 1,Chrome 75.0.3770.142,,2019-07-25 11:36:43,2019-07-25 11:36:43,0.000s,PASSED
+closeBrowser(),Chrome 75.0.3770.142,,2019-07-25 11:36:43,2019-07-25 11:36:44,0.727s,PASSED

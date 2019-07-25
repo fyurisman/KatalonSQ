@@ -19,9 +19,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.target+'sehatq.com/faskes/rumah-sakit-abdi-waluyo')
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(3)
 
 WebUI.click(findTestObject('rumah sakit/booking not login/div_Kandungan'))
+
+WebUI.delay(1)
+
+WebUI.scrollToElement(findTestObject('rumah sakit/booking not login/pilih tanggal'),1)
 
 WebUI.click(findTestObject('rumah sakit/booking not login/pilih tanggal'))
 
@@ -35,7 +39,7 @@ WebUI.click(findTestObject('rumah sakit/booking not login/td_6'))
 
 WebUI.click(findTestObject('rumah sakit/booking not login/a_1700 - 2000'))
 
-WebUI.waitForElementVisible(findTestObject('rumah sakit/booking not login/login pop up'), 5)
+WebUI.waitForElementVisible(findTestObject('rumah sakit/booking not login/login pop up'), 3)
 
 WebUI.verifyElementVisible(findTestObject('rumah sakit/booking not login/login pop up'))
 

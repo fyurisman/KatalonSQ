@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+booking,Chrome 75.0.3770.142,,2019-07-25 11:40:12,2019-07-25 11:43:51,3m - 39.689s,FAILED
+,,,,,,
+Test Cases/dokter new/dokter - booking not login,Chrome 75.0.3770.142,,2019-07-25 11:40:12,2019-07-25 11:40:31,19.075s,FAILED
+"openBrowser("""")",Chrome 75.0.3770.142,,2019-07-25 11:40:13,2019-07-25 11:40:17,3.966s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-25 11:40:17,2019-07-25 11:40:18,1.143s,PASSED
+"navigateToUrl(target + ""sehatq.com/dokter/dr-patrianef-spbkv"")",Chrome 75.0.3770.142,,2019-07-25 11:40:18,2019-07-25 11:40:19,1.696s,PASSED
+"click(findTestObject(""dokter new/booking not login/input_View Map_date""))",Chrome 75.0.3770.142,,2019-07-25 11:40:19,2019-07-25 11:40:20,0.359s,PASSED
+"click(findTestObject(""Object Repository/dokter new/booking not login/th_Juli 2019""))",Chrome 75.0.3770.142,,2019-07-25 11:40:20,2019-07-25 11:40:31,11.650s,FAILED
+,,,,,,
+Test Cases/dokter new/dokter - booking logged in,Chrome 75.0.3770.142,,2019-07-25 11:40:31,2019-07-25 11:41:50,1m - 18.331s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,2019-07-25 11:40:32,2019-07-25 11:40:35,3.227s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-25 11:40:35,2019-07-25 11:40:36,1.174s,PASSED
+"navigateToUrl(target + ""sehatq.com/dokter/dr-patrianef-spbkv"")",Chrome 75.0.3770.142,,2019-07-25 11:40:36,2019-07-25 11:40:38,1.779s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:40:38,2019-07-25 11:40:40,1.794s,PASSED
+"click(findTestObject(""rumah sakit/booking logged in/button_Login  Daftar Baru""))",Chrome 75.0.3770.142,,2019-07-25 11:40:40,2019-07-25 11:40:40,0.752s,PASSED
+"waitForElementVisible(findTestObject(""rumah sakit/booking logged in/input_Alamat E-Mail_email""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:40:40,2019-07-25 11:40:41,0.608s,PASSED
+"setText(findTestObject(""rumah sakit/booking logged in/input_Alamat E-Mail_email""), ""kuning@color.com"")",Chrome 75.0.3770.142,,2019-07-25 11:40:41,2019-07-25 11:40:42,0.525s,PASSED
+"setText(findTestObject(""rumah sakit/booking logged in/input_Kata Sandi_password""), ""123sehatQ!"")",Chrome 75.0.3770.142,,2019-07-25 11:40:42,2019-07-25 11:40:42,0.392s,PASSED
+"click(findTestObject(""rumah sakit/booking logged in/button_Masuk""))",Chrome 75.0.3770.142,,2019-07-25 11:40:42,2019-07-25 11:40:42,0.217s,PASSED
+delay(3),Chrome 75.0.3770.142,,2019-07-25 11:40:42,2019-07-25 11:40:45,3.062s,PASSED
+"while (verifyElementPresent(findTestObject(""Object Repository/dokter new/booking logged in/jadwal praktek section header""), 5, OPTIONAL) == true)",Chrome 75.0.3770.142,,2019-07-25 11:40:45,2019-07-25 11:41:49,1m - 3.679s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:41:49,2019-07-25 11:41:49,0.011s,PASSED
+"verifyElementPresent(findTestObject(""rumah sakit/booking logged in/div_Buat Janji Dokter""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:41:49,2019-07-25 11:41:49,0.027s,PASSED
+counter = 1,Chrome 75.0.3770.142,,2019-07-25 11:41:49,2019-07-25 11:41:49,0.000s,PASSED
+closeBrowser(),Chrome 75.0.3770.142,,2019-07-25 11:41:49,2019-07-25 11:41:50,0.727s,PASSED
+,,,,,,
+Test Cases/rumah sakit/rumah sakit - booking not login,Chrome 75.0.3770.142,,2019-07-25 11:41:50,2019-07-25 11:42:01,11.428s,FAILED
+"openBrowser("""")",Chrome 75.0.3770.142,,2019-07-25 11:41:50,2019-07-25 11:41:53,2.613s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-25 11:41:53,2019-07-25 11:41:54,1.153s,PASSED
+"navigateToUrl(target + ""sehatq.com/faskes/rumah-sakit-abdi-waluyo"")",Chrome 75.0.3770.142,,2019-07-25 11:41:54,2019-07-25 11:41:56,1.908s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:41:56,2019-07-25 11:42:01,5.456s,FAILED
+,,,,,,
+Test Cases/rumah sakit/rumah sakit - booking logged in,Chrome 75.0.3770.142,,2019-07-25 11:42:01,2019-07-25 11:43:50,1m - 49.210s,FAILED
+"openBrowser("""")",Chrome 75.0.3770.142,,2019-07-25 11:42:01,2019-07-25 11:42:04,3.102s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,2019-07-25 11:42:04,2019-07-25 11:42:06,1.145s,PASSED
+"navigateToUrl(target + ""sehatq.com/faskes/rumah-sakit-abdi-waluyo"")",Chrome 75.0.3770.142,,2019-07-25 11:42:06,2019-07-25 11:42:07,1.606s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:42:07,2019-07-25 11:42:09,2.092s,PASSED
+"click(findTestObject(""rumah sakit/booking logged in/button_Login  Daftar Baru""))",Chrome 75.0.3770.142,,2019-07-25 11:42:09,2019-07-25 11:42:10,0.235s,PASSED
+"waitForElementVisible(findTestObject(""rumah sakit/booking logged in/input_Alamat E-Mail_email""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:42:10,2019-07-25 11:42:10,0.721s,PASSED
+"setText(findTestObject(""rumah sakit/booking logged in/input_Alamat E-Mail_email""), ""kuning@color.com"")",Chrome 75.0.3770.142,,2019-07-25 11:42:10,2019-07-25 11:42:11,0.290s,PASSED
+"setEncryptedText(findTestObject(""rumah sakit/booking logged in/input_Kata Sandi_password""), ""VU1orW/zbPOwxjV+uFYKbg=="")",Chrome 75.0.3770.142,,2019-07-25 11:42:11,2019-07-25 11:42:11,0.365s,PASSED
+"click(findTestObject(""rumah sakit/booking logged in/button_Masuk""))",Chrome 75.0.3770.142,,2019-07-25 11:42:11,2019-07-25 11:42:11,0.144s,PASSED
+delay(3),Chrome 75.0.3770.142,,2019-07-25 11:42:11,2019-07-25 11:42:14,3.002s,PASSED
+"scrollToElement(findTestObject(""rumah sakit/booking not login/div_Kandungan""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:42:14,2019-07-25 11:42:14,0.335s,PASSED
+"click(findTestObject(""rumah sakit/booking not login/div_Kandungan""))",Chrome 75.0.3770.142,,2019-07-25 11:42:14,2019-07-25 11:42:15,0.129s,PASSED
+"while (verifyElementPresent(findTestObject(""rumah sakit/booking logged in/dokter section header 2""), 5, OPTIONAL) == true)",Chrome 75.0.3770.142,,2019-07-25 11:42:15,2019-07-25 11:43:44,1m - 29.445s,PASSED
+waitForPageLoad(5),Chrome 75.0.3770.142,,2019-07-25 11:43:44,2019-07-25 11:43:44,0.012s,PASSED
+"verifyElementPresent(findTestObject(""rumah sakit/booking logged in/div_Buat Janji Dokter""), 5)",Chrome 75.0.3770.142,,2019-07-25 11:43:44,2019-07-25 11:43:50,6.376s,FAILED

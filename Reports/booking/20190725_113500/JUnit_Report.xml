@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="booking" time="99" tests="2" failures="2" errors="0">
+   <testsuite name="booking" tests="2" failures="2" errors="0" time="99" timestamp="2019-07-25 11:35:04" hostname="Felix Y - LAPTOP-FKLO5HNS" id="Test Suites/booking">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\booking\\20190725_113500"/>
+         <property name="logFiles" value="C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\booking\\20190725_113500\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\booking\\20190725_113500\\1564029335841.png, C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\booking\\20190725_113500\\1564029358888.png, C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\booking\\20190725_113500\\1564029384334.png, C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\booking\\20190725_113500\\1564029395444.png, C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\booking\\20190725_113500\\1564029402992.png"/>
+         <property name="hostName" value="Felix Y - LAPTOP-FKLO5HNS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 75.0.3770.142"/>
+         <property name="hostAddress" value="172.22.250.220"/>
+         <property name="sessionId" value="9b75d0b5e904e4352c447eea3ba5a77d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/dokter new/dokter - booking not login" classname="Test Cases/dokter new/dokter - booking not login" status="PASSED">
+         <system-out><![CDATA[2019-07-25 11:35:05 - [TEST_CASE][PASSED] - Test Cases/dokter new/dokter - booking not login: Test Cases/dokter new/dokter - booking not login
+
+2019-07-25 11:35:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-25 11:35:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-25 11:35:06 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-25 11:35:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-25 11:35:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-25 11:35:10 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-25 11:35:10 - [TEST_STEP][PASSED] - navigateToUrl(target + "sehatq.com/dokter/dr-patrianef-spbkv"): Navigate to 'https://www.sehatq.com/dokter/dr-patrianef-spbkv' successfully
+
+2019-07-25 11:35:12 - [MESSAGE][PASSED] - Navigate to 'https://www.sehatq.com/dokter/dr-patrianef-spbkv' successfully
+
+2019-07-25 11:35:12 - [TEST_STEP][PASSED] - waitForAlert(5): No alert found after 5 second(s).
+
+2019-07-25 11:35:18 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+2019-07-25 11:35:18 - [TEST_STEP][PASSED] - click(findTestObject("dokter new/booking not login/input_View Map_date")): Object: 'Object Repository/dokter new/booking not login/input_View Map_date' is clicked on
+
+2019-07-25 11:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/dokter new/booking not login/input_View Map_date' is clicked on
+
+2019-07-25 11:35:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/dokter new/booking not login/th_Juli 2019")): Object: 'Object Repository/dokter new/booking not login/th_Juli 2019' is clicked on
+
+2019-07-25 11:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/dokter new/booking not login/th_Juli 2019' is clicked on
+
+2019-07-25 11:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/dokter new/booking not login/i_Mg_fa fa-chevron-right")): Object: 'Object Repository/dokter new/booking not login/i_Mg_fa fa-chevron-right' is clicked on
+
+2019-07-25 11:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/dokter new/booking not login/i_Mg_fa fa-chevron-right' is clicked on
+
+2019-07-25 11:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/dokter new/booking not login/span_Jan")): Object: 'Object Repository/dokter new/booking not login/span_Jan' is clicked on
+
+2019-07-25 11:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/dokter new/booking not login/span_Jan' is clicked on
+
+2019-07-25 11:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/dokter new/booking not login/td_6")): Object: 'Object Repository/dokter new/booking not login/td_6' is clicked on
+
+2019-07-25 11:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/dokter new/booking not login/td_6' is clicked on
+
+2019-07-25 11:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/dokter new/booking not login/a_1830 - Selesai")): Object: 'Object Repository/dokter new/booking not login/a_1830 - Selesai' is clicked on
+
+2019-07-25 11:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/dokter new/booking not login/a_1830 - Selesai' is clicked on
+
+2019-07-25 11:35:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-07-25 11:35:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-25 11:35:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("rumah sakit/booking not login/login pop up")): Object 'Object Repository/rumah sakit/booking not login/login pop up' is visible
+
+2019-07-25 11:35:24 - [MESSAGE][PASSED] - Object 'Object Repository/rumah sakit/booking not login/login pop up' is visible
+
+2019-07-25 11:35:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-25 11:35:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dokter new/dokter - booking logged in" classname="Test Cases/dokter new/dokter - booking logged in" status="FAILED">
+         <failure type="FAILED" message="Test Cases/dokter new/dokter - booking logged in FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@29314cc9 (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FKLO5HNS', ip: '172.22.250.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\FELIXY~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52297}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 44a9383a7c5ec1b67a0f21f69d8bf9c6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.waitForPageLoad(WaitForPageLoadKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.execute(WaitForPageLoadKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad(WebUiBuiltInKeywords.groovy:2427)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForPageLoad$6.call(Unknown Source)
+	at dokter - booking logged in.run(dokter - booking logged in:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564029300622.run(TempTestSuite1564029300622.groovy:36)
+"/>
+         <system-out><![CDATA[2019-07-25 11:35:24 - [TEST_CASE][FAILED] - Test Cases/dokter new/dokter - booking logged in: Test Cases/dokter new/dokter - booking logged in FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@29314cc9 (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FKLO5HNS', ip: '172.22.250.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\FELIXY~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52297}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 44a9383a7c5ec1b67a0f21f69d8bf9c6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.waitForPageLoad(WaitForPageLoadKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.execute(WaitForPageLoadKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad(WebUiBuiltInKeywords.groovy:2427)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForPageLoad$6.call(Unknown Source)
+	at dokter - booking logged in.run(dokter - booking logged in:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564029300622.run(TempTestSuite1564029300622.groovy:36)
+
+
+2019-07-25 11:35:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-25 11:35:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-25 11:35:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-25 11:35:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-25 11:35:28 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-25 11:35:28 - [TEST_STEP][PASSED] - navigateToUrl(target + "sehatq.com/dokter/dr-patrianef-spbkv"): Navigate to 'https://www.sehatq.com/dokter/dr-patrianef-spbkv' successfully
+
+2019-07-25 11:35:30 - [MESSAGE][PASSED] - Navigate to 'https://www.sehatq.com/dokter/dr-patrianef-spbkv' successfully
+
+2019-07-25 11:35:30 - [TEST_STEP][FAILED] - waitForPageLoad(5): waitForPageLoad(5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@29314cc9 (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FKLO5HNS', ip: '172.22.250.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\FELIXY~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52297}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 44a9383a7c5ec1b67a0f21f69d8bf9c6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.waitForPageLoad(WaitForPageLoadKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.execute(WaitForPageLoadKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad(WebUiBuiltInKeywords.groovy:2427)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForPageLoad$6.call(Unknown Source)
+	at dokter - booking logged in.run(dokter - booking logged in:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564029300622.run(TempTestSuite1564029300622.groovy:36)
+
+
+2019-07-25 11:35:36 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@29314cc9 (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FKLO5HNS', ip: '172.22.250.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\FELIXY~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52297}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 44a9383a7c5ec1b67a0f21f69d8bf9c6)
+[[ATTACHMENT|C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\booking\\20190725_113500\\1564029335841.png]]
+
+2019-07-25 11:35:36 - [MESSAGE][FAILED] - waitForPageLoad(5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@29314cc9 (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FKLO5HNS', ip: '172.22.250.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\FELIXY~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52297}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 44a9383a7c5ec1b67a0f21f69d8bf9c6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.waitForPageLoad(WaitForPageLoadKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.execute(WaitForPageLoadKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad(WebUiBuiltInKeywords.groovy:2427)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForPageLoad$6.call(Unknown Source)
+	at dokter - booking logged in.run(dokter - booking logged in:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564029300622.run(TempTestSuite1564029300622.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-07-25 11:35:24 - [TEST_CASE][FAILED] - Test Cases/dokter new/dokter - booking logged in: Test Cases/dokter new/dokter - booking logged in FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@29314cc9 (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FKLO5HNS', ip: '172.22.250.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\FELIXY~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52297}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 44a9383a7c5ec1b67a0f21f69d8bf9c6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.waitForPageLoad(WaitForPageLoadKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.execute(WaitForPageLoadKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad(WebUiBuiltInKeywords.groovy:2427)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForPageLoad$6.call(Unknown Source)
+	at dokter - booking logged in.run(dokter - booking logged in:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564029300622.run(TempTestSuite1564029300622.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/rumah sakit/rumah sakit - booking not login" classname="Test Cases/rumah sakit/rumah sakit - booking not login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/rumah sakit/rumah sakit - booking not login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/rumah sakit/booking not login/th_Juli 2019' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking not login/th_Juli 2019' located by 'By.xpath: //div[@id='kandungan-0']/div/div/div/div/div[2]/div/div/ul/li/div/div/table/thead/tr/th[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at rumah sakit - booking not login.run(rumah sakit - booking not login:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564029300622.run(TempTestSuite1564029300622.groovy:36)
+"/>
+         <system-out><![CDATA[2019-07-25 11:35:36 - [TEST_CASE][FAILED] - Test Cases/rumah sakit/rumah sakit - booking not login: Test Cases/rumah sakit/rumah sakit - booking not login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/rumah sakit/booking not login/th_Juli 2019' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking not login/th_Juli 2019' located by 'By.xpath: //div[@id='kandungan-0']/div/div/div/div/div[2]/div/div/ul/li/div/div/table/thead/tr/th[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at rumah sakit - booking not login.run(rumah sakit - booking not login:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564029300622.run(TempTestSuite1564029300622.groovy:36)
+
+
+2019-07-25 11:35:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-25 11:35:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-25 11:35:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-25 11:35:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-25 11:35:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-25 11:35:40 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-25 11:35:40 - [TEST_STEP][PASSED] - navigateToUrl(target + "sehatq.com/faskes/rumah-sakit-abdi-waluyo"): Navigate to 'https://www.sehatq.com/faskes/rumah-sakit-abdi-waluyo' successfully
+
+2019-07-25 11:35:42 - [MESSAGE][PASSED] - Navigate to 'https://www.sehatq.com/faskes/rumah-sakit-abdi-waluyo' successfully
+
+2019-07-25 11:35:42 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-07-25 11:35:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-25 11:35:46 - [TEST_STEP][PASSED] - click(findTestObject("rumah sakit/booking not login/div_Kandungan")): Object: 'Object Repository/rumah sakit/booking not login/div_Kandungan' is clicked on
+
+2019-07-25 11:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/rumah sakit/booking not login/div_Kandungan' is clicked on
+
+2019-07-25 11:35:46 - [TEST_STEP][PASSED] - click(findTestObject("rumah sakit/booking not login/pilih tanggal")): Object: 'Object Repository/rumah sakit/booking not login/pilih tanggal' is clicked on
+
+2019-07-25 11:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/rumah sakit/booking not login/pilih tanggal' is clicked on
+
+2019-07-25 11:35:47 - [TEST_STEP][FAILED] - click(findTestObject("rumah sakit/booking not login/th_Juli 2019")): click(findTestObject("rumah sakit/booking not login/th_Juli 2019")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/rumah sakit/booking not login/th_Juli 2019' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking not login/th_Juli 2019' located by 'By.xpath: //div[@id='kandungan-0']/div/div/div/div/div[2]/div/div/ul/li/div/div/table/thead/tr/th[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at rumah sakit - booking not login.run(rumah sakit - booking not login:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564029300622.run(TempTestSuite1564029300622.groovy:36)
+
+
+2019-07-25 11:35:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='kandungan-0']/div/div/div/div/div[2]/div/div/ul/li/div/div/table/thead/tr/th[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-25 11:35:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/rumah sakit/booking not login/th_Juli 2019' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking not login/th_Juli 2019' located by 'By.xpath: //div[@id='kandungan-0']/div/div/div/div/div[2]/div/div/ul/li/div/div/table/thead/tr/th[2]' not found)
+[[ATTACHMENT|C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\booking\\20190725_113500\\1564029358888.png]]
+
+2019-07-25 11:35:59 - [MESSAGE][FAILED] - click(findTestObject("rumah sakit/booking not login/th_Juli 2019")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/rumah sakit/booking not login/th_Juli 2019' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking not login/th_Juli 2019' located by 'By.xpath: //div[@id='kandungan-0']/div/div/div/div/div[2]/div/div/ul/li/div/div/table/thead/tr/th[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at rumah sakit - booking not login.run(rumah sakit - booking not login:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564029300622.run(TempTestSuite1564029300622.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-07-25 11:35:36 - [TEST_CASE][FAILED] - Test Cases/rumah sakit/rumah sakit - booking not login: Test Cases/rumah sakit/rumah sakit - booking not login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/rumah sakit/booking not login/th_Juli 2019' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking not login/th_Juli 2019' located by 'By.xpath: //div[@id='kandungan-0']/div/div/div/div/div[2]/div/div/ul/li/div/div/table/thead/tr/th[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at rumah sakit - booking not login.run(rumah sakit - booking not login:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564029300622.run(TempTestSuite1564029300622.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/rumah sakit/rumah sakit - booking logged in" classname="Test Cases/rumah sakit/rumah sakit - booking logged in" status="PASSED">
+         <system-out><![CDATA[2019-07-25 11:35:59 - [TEST_CASE][PASSED] - Test Cases/rumah sakit/rumah sakit - booking logged in: Test Cases/rumah sakit/rumah sakit - booking logged in
+
+2019-07-25 11:35:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-25 11:35:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-25 11:36:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-25 11:36:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-25 11:36:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-07-25 11:36:03 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-25 11:36:03 - [TEST_STEP][PASSED] - navigateToUrl(target + "sehatq.com/faskes/rumah-sakit-abdi-waluyo"): Navigate to 'https://www.sehatq.com/faskes/rumah-sakit-abdi-waluyo' successfully
+
+2019-07-25 11:36:05 - [MESSAGE][PASSED] - Navigate to 'https://www.sehatq.com/faskes/rumah-sakit-abdi-waluyo' successfully
+
+2019-07-25 11:36:05 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-07-25 11:36:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-25 11:36:07 - [TEST_STEP][PASSED] - click(findTestObject("rumah sakit/booking logged in/button_Login  Daftar Baru")): Object: 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' is clicked on
+
+2019-07-25 11:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/rumah sakit/booking logged in/button_Login  Daftar Baru' is clicked on
+
+2019-07-25 11:36:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("rumah sakit/booking logged in/input_Alamat E-Mail_email"), 5): Object 'Object Repository/rumah sakit/booking logged in/input_Alamat E-Mail_email' is visible
+
+2019-07-25 11:36:08 - [MESSAGE][PASSED] - Object 'Object Repository/rumah sakit/booking logged in/input_Alamat E-Mail_email' is visible
+
+2019-07-25 11:36:08 - [TEST_STEP][PASSED] - setText(findTestObject("rumah sakit/booking logged in/input_Alamat E-Mail_email"), "kuning@color.com"): Text 'kuning@color.com' is set on object 'Object Repository/rumah sakit/booking logged in/input_Alamat E-Mail_email'
+
+2019-07-25 11:36:08 - [MESSAGE][PASSED] - Text 'kuning@color.com' is set on object 'Object Repository/rumah sakit/booking logged in/input_Alamat E-Mail_email'
+
+2019-07-25 11:36:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("rumah sakit/booking logged in/input_Kata Sandi_password"), "VU1orW/zbPOwxjV+uFYKbg=="): Text ****** has been set on object 'Object Repository/rumah sakit/booking logged in/input_Kata Sandi_password'
+
+2019-07-25 11:36:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/rumah sakit/booking logged in/input_Kata Sandi_password'
+
+2019-07-25 11:36:08 - [TEST_STEP][PASSED] - click(findTestObject("rumah sakit/booking logged in/button_Masuk")): Object: 'Object Repository/rumah sakit/booking logged in/button_Masuk' is clicked on
+
+2019-07-25 11:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/rumah sakit/booking logged in/button_Masuk' is clicked on
+
+2019-07-25 11:36:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-25 11:36:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-25 11:36:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("rumah sakit/booking not login/div_Kandungan"), 5): Scroll to object 'Object Repository/rumah sakit/booking not login/div_Kandungan' successfully
+
+2019-07-25 11:36:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/rumah sakit/booking not login/div_Kandungan' successfully
+
+2019-07-25 11:36:12 - [TEST_STEP][PASSED] - click(findTestObject("rumah sakit/booking not login/div_Kandungan")): Object: 'Object Repository/rumah sakit/booking not login/div_Kandungan' is clicked on
+
+2019-07-25 11:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/rumah sakit/booking not login/div_Kandungan' is clicked on
+
+2019-07-25 11:36:12 - [TEST_STEP][PASSED] - while (verifyElementPresent(findTestObject("rumah sakit/booking logged in/dokter section header 2"), 5, OPTIONAL) == true): null
+
+2019-07-25 11:36:12 - [MESSAGE][PASSED] - Object 'Object Repository/rumah sakit/booking logged in/dokter section header 2' is present
+
+2019-07-25 11:36:12 - [TEST_STEP][PASSED] - a = "/html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[" + counter + "]/div[3]/a": null
+
+2019-07-25 11:36:12 - [TEST_STEP][PASSED] - schedulebooking = TestObject().addProperty("xpath", EQUALS, a, true): null
+
+2019-07-25 11:36:12 - [TEST_STEP][PASSED] - if (verifyElementClickable(schedulebooking, OPTIONAL) == true): Web element with id: '' located by 'By.xpath: /html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[1]/div[3]/a' not found
+
+2019-07-25 11:36:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[1]/div[3]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-25 11:36:24 - [MESSAGE][WARNING] - Web element with id: '' located by 'By.xpath: /html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[1]/div[3]/a' not found
+[[ATTACHMENT|C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\booking\\20190725_113500\\1564029384334.png]]
+
+2019-07-25 11:36:24 - [TEST_STEP][PASSED] - else if (counter != 8): Object 'Object Repository/rumah sakit/booking logged in/dokter section header 2' is present
+
+2019-07-25 11:36:24 - [TEST_STEP][PASSED] - (internal.GlobalVariable.counter++): Object 'Object Repository/rumah sakit/booking logged in/dokter section header 2' is present
+
+2019-07-25 11:36:24 - [MESSAGE][PASSED] - Object 'Object Repository/rumah sakit/booking logged in/dokter section header 2' is present
+
+2019-07-25 11:36:24 - [TEST_STEP][PASSED] - a = "/html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[" + counter + "]/div[3]/a": null
+
+2019-07-25 11:36:24 - [TEST_STEP][PASSED] - schedulebooking = TestObject().addProperty("xpath", EQUALS, a, true): null
+
+2019-07-25 11:36:24 - [TEST_STEP][PASSED] - if (verifyElementClickable(schedulebooking, OPTIONAL) == true): Web element with id: '' located by 'By.xpath: /html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[2]/div[3]/a' not found
+
+2019-07-25 11:36:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[2]/div[3]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-25 11:36:35 - [MESSAGE][WARNING] - Web element with id: '' located by 'By.xpath: /html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[2]/div[3]/a' not found
+[[ATTACHMENT|C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\booking\\20190725_113500\\1564029395444.png]]
+
+2019-07-25 11:36:35 - [TEST_STEP][PASSED] - else if (counter != 8): Object 'Object Repository/rumah sakit/booking logged in/dokter section header 2' is present
+
+2019-07-25 11:36:35 - [TEST_STEP][PASSED] - (internal.GlobalVariable.counter++): Object 'Object Repository/rumah sakit/booking logged in/dokter section header 2' is present
+
+2019-07-25 11:36:35 - [MESSAGE][PASSED] - Object 'Object Repository/rumah sakit/booking logged in/dokter section header 2' is present
+
+2019-07-25 11:36:35 - [TEST_STEP][PASSED] - a = "/html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[" + counter + "]/div[3]/a": null
+
+2019-07-25 11:36:35 - [TEST_STEP][PASSED] - schedulebooking = TestObject().addProperty("xpath", EQUALS, a, true): null
+
+2019-07-25 11:36:35 - [TEST_STEP][PASSED] - if (verifyElementClickable(schedulebooking, OPTIONAL) == true): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking logged in/dokter section header 2' located by 'By.xpath: /html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[1]' not found
+
+2019-07-25 11:36:35 - [MESSAGE][PASSED] - Object '' is clickable
+
+2019-07-25 11:36:35 - [TEST_STEP][PASSED] - click(schedulebooking): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking logged in/dokter section header 2' located by 'By.xpath: /html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[1]' not found
+
+2019-07-25 11:36:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-25 11:36:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-25 11:36:43 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/rumah sakit/booking logged in/dokter section header 2' located by 'By.xpath: /html/body/div[1]/main/div[1]/section[2]/div[2]/div/div/div[1]/div/div[2]/div/div[1]' not found
+[[ATTACHMENT|C:\\Users\\Felix Y\\git\\KatalonSehatQ\\Reports\\booking\\20190725_113500\\1564029402992.png]]
+
+2019-07-25 11:36:43 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-07-25 11:36:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-25 11:36:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("rumah sakit/booking logged in/div_Buat Janji Dokter"), 5): Object 'Object Repository/rumah sakit/booking logged in/div_Buat Janji Dokter' is present
+
+2019-07-25 11:36:43 - [MESSAGE][PASSED] - Object 'Object Repository/rumah sakit/booking logged in/div_Buat Janji Dokter' is present
+
+2019-07-25 11:36:43 - [TEST_STEP][PASSED] - counter = 1: null
+
+2019-07-25 11:36:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-25 11:36:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-25 11:35:04 - [TEST_SUITE][FAILED] - booking: Test Cases/dokter new/dokter - booking logged in FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@29314cc9 (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FKLO5HNS', ip: '172.22.250.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\FELIXY~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52297}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 44a9383a7c5ec1b67a0f21f69d8bf9c6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.waitForPageLoad(WaitForPageLoadKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.execute(WaitForPageLoadKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad(WebUiBuiltInKeywords.groovy:2427)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForPageLoad$6.call(Unknown Source)
+	at dokter - booking logged in.run(dokter - booking logged in:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564029300622.run(TempTestSuite1564029300622.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-07-25 11:35:04 - [TEST_SUITE][FAILED] - booking: Test Cases/dokter new/dokter - booking logged in FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@29314cc9 (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FKLO5HNS', ip: '172.22.250.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\FELIXY~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52297}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 44a9383a7c5ec1b67a0f21f69d8bf9c6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.waitForPageLoad(WaitForPageLoadKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.execute(WaitForPageLoadKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad(WebUiBuiltInKeywords.groovy:2427)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForPageLoad$6.call(Unknown Source)
+	at dokter - booking logged in.run(dokter - booking logged in:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564029300622.run(TempTestSuite1564029300622.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -17,9 +17,13 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.target+'sehatq.com/dokter/dr-patrianef-spbkv')
+WebUI.navigateToUrl(GlobalVariable.target + 'sehatq.com/dokter/dr-ar-widjaja-spb')
 
-WebUI.waitForAlert(5)
+WebUI.waitForPageLoad(3)
+
+WebUI.delay(1)
+
+WebUI.scrollToElement(findTestObject('dokter new/booking not login/input_View Map_date'), 1)
 
 WebUI.click(findTestObject('dokter new/booking not login/input_View Map_date'))
 

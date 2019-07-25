@@ -17,7 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.target+'sehatq.com/dokter/dr-patrianef-spbkv')
+WebUI.navigateToUrl(GlobalVariable.target+'sehatq.com/dokter/dr-ar-widjaja-spb')
 
 WebUI.waitForPageLoad(5)
 
@@ -33,6 +33,8 @@ WebUI.click(findTestObject('rumah sakit/booking logged in/button_Masuk'))
 
 WebUI.delay(3)
 
+if (WebUI.verifyElementNotPresent(findTestObject('Object Repository/dokter new/loading animation'), 3, FailureHandling.OPTIONAL) == true) {
+	
 while (WebUI.verifyElementPresent(findTestObject('Object Repository/dokter new/booking logged in/jadwal praktek section header'), 5, FailureHandling.OPTIONAL) == true) {
 	a = '/html/body/div[1]/main/div[1]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div/div[3]/div['+GlobalVariable.counter+']/div[3]/a'
 	TestObject schedulebooking = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS,
@@ -42,9 +44,11 @@ while (WebUI.verifyElementPresent(findTestObject('Object Repository/dokter new/b
 		WebUI.click(schedulebooking)
 	} else if (GlobalVariable.counter != 8) {
 		(GlobalVariable.counter)++
-	} else {
-	break}
-}
+	} else {break}
+	}
+} else {
+WebUI.comment('schedule loading problem')
+	}
 
 WebUI.waitForPageLoad(5)
 
